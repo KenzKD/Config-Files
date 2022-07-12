@@ -921,7 +921,7 @@ xkb_symbols "colemak_dh" {
     key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
 
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
-    key <CAPS> { [       BackSpace ] };
+    key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
     key  <INS> { [       Caps_Lock ] };
 
     include "level3(ralt_switch)"
