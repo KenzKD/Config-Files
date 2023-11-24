@@ -1,0 +1,23 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+bf6cb2b4-ada3-4a5e-a409-bd68824899f7:1. Default:1. Default
+17715a4a-4c21-4e01-9856-a6ca867a8091:2. Stylised:2. Stylised
+60366481-e6f3-4b6c-ad19-221ff639dcbd:2. Stylised/Blue:2. Stylised-Blue
+a9421961-9806-4a00-9b58-f906225ca508:2. Stylised/Brown:2. Stylised-Brown
+bf832c4c-8a59-41d2-8275-025545c7a094:2. Stylised/Green:2. Stylised-Green
+23c5f0aa-09cc-485c-92ae-abfca9f7a71e:2. Stylised/Misc:2. Stylised-Misc
+12951169-54a0-4944-89c0-176f7edbe371:3. Realistic:3. Realistic
+2895af25-4a06-47da-8b93-7d35f26e6922:3. Realistic/Blue:3. Realistic-Blue
+23b99383-f0f0-4bc8-bca8-dd207dadb614:3. Realistic/Brown:3. Realistic-Brown
+844bc088-a5ce-4772-8b0a-adf2ff411e10:3. Realistic/Green:3. Realistic-Green
+22e6d709-5351-451d-8409-751647c6c70e:3. Realistic/Misc:3. Realistic-Misc
+b69962af-3683-4574-abfb-0cf1c9b5ca54:4. Animals:4. Animals
+8fd25e25-9422-41bc-bbd8-77a632e0ac1f:4. Animals/Cat:4. Animals-Cat
+61551e35-e97a-4eff-80f0-28ff05c5ef18:4. Animals/Dragon:4. Animals-Dragon
+9cbbc80c-fff4-4b94-b4ab-5d6aa7d07ebc:4. Animals/Goat:4. Animals-Goat
