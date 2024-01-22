@@ -1,0 +1,24 @@
+[tool.isort]
+multi_line_output = 3
+lines_after_imports = 2
+skip = ["lib", "dependencies", "out"]
+profile = "black"
+
+[tool.black]
+target-version = ['py310']
+include = '\.pyi?$'
+exclude = '''
+/(
+  | \.git
+  | lib
+  | dependencies
+  | out
+)/
+'''
+
+[tool.ruff]
+exclude = ["lib", "dependencies", "out", "addon_updater.py", "addon_updater_ops.py"]
+ignore = [ 
+    "E501", #Line too long
+    ]
+target-version = "py310"
