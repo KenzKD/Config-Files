@@ -21,3 +21,5 @@ for _, mode in ipairs(modes) do
     vim.api.nvim_set_keymap(mode, key:upper(), remap:upper(), {noremap = true, silent = true})
   end
 end
+
+vim.o.clipboard = "unnamedplus"
