@@ -1,6 +1,6 @@
 local modes = {'n', 'v', 'o' }
 local keys = {
-  b = 'n',  -- Find "next" 
+  b = 'n',  -- Find "next"
   j = 'e',  -- End of Word
   k = 'i',  -- Insert
   w = 'o',  -- Open Below
@@ -10,10 +10,10 @@ local keys = {
   i = 'k',  -- Go Down
   o = 'w',  -- Go Next Word
 
-  h = 's',  -- substitute char
-  l = 't',  -- until char
+  h = 's',  -- Substitute Char
+  l = 't',  -- Until Char
   
-  s = 'h',  -- Go Left  
+  s = 'h',  -- Go Left
   t = 'l',  -- Go Right
 
   d = 'r',  -- Replace
@@ -29,3 +29,13 @@ for _, mode in ipairs(modes) do
 end
 
 vim.o.clipboard = "unnamedplus"
+
+--[[
+    VS Code Shortcuts:
+
+    1. Deactivated Neovim Keybindings:
+        - Ctrl+A, Ctrl+C, Ctrl+S, Ctrl+X, Ctrl+V, and Ctrl+Z
+
+    2. New Assignments:
+        - "ii" is now a shortcut for Esc
+]]
