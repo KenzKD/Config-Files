@@ -28,7 +28,11 @@ for _, mode in ipairs(modes) do
   end
 end
 
+-- Use OS Clipboard
 vim.o.clipboard = "unnamedplus"
+
+-- Remap Esc to ii
+vim.api.nvim_set_keymap('i', 'ii', '<Esc>', {noremap = true, silent = true, nowait = true})
 
 --[[
     VS Code Shortcuts:
