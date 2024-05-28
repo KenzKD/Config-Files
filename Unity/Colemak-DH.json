@@ -134,6 +134,40 @@
                 "path": "Tools/Move"
             },
             "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Tools/Polybrush/Polybrush Window"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Tools/View"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 113,
+                    "m_Modifiers": 0
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Frame Selected in Scene"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 266,
+                    "m_Modifiers": 0
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Frame Selected in Window under Cursor"
+            },
+            "combinations": []
         }
     ]
 }
