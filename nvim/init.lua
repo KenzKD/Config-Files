@@ -46,9 +46,6 @@ local mappings = {
 for _, map in ipairs(mappings) do
 	vim.api.nvim_set_keymap(map[1], map[2], map[3], { noremap = true, silent = true, nowait = true })
 end
-		
--- Use OS Clipboard
-vim.o.clipboard = "unnamedplus"
 
 --[[
 VS Code Shortcuts:
@@ -60,3 +57,41 @@ VS Code Shortcuts:
 	- "ii" is now a shortcut for Esc
 	- Tab, BackSpace and Enter Work as usual in Normal and Visual Mode
 ]]
+
+-- Enable NeoVim Editor Features
+
+-- Use OS Clipboard
+vim.o.clipboard = "unnamedplus"
+
+-- Show Line Numbers
+vim.o.number = true
+vim.o.relativenumber = true
+
+-- Enable break indent
+vim.o.breakindent = true
+
+-- Save undo history
+vim.o.undofile = true
+
+-- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
+vim.o.ignorecase = true
+vim.o.smartcase = true
+
+-- Keep signcolumn on by default
+vim.o.signcolumn = 'yes'
+
+-- Decrease update time
+vim.o.updatetime = 250
+
+-- Decrease mapped sequence wait time
+-- Displays which-key popup sooner
+vim.o.timeoutlen = 300
+
+-- Show which line your cursor is on
+vim.o.cursorline = true
+
+-- Minimal number of screen lines to keep above and below the cursor.
+vim.o.scrolloff = 10
+
+-- Enable mouse mode, can be useful for resizing splits for example!
+vim.o.mouse = 'a'
