@@ -1,6 +1,7 @@
 local modes = { 'n', 'v', 'o' }
 
-local keys = {
+local keys = 
+{
 	b = 'n', -- Find "next"
 	j = 'e', -- End of Word
 	k = 'i', -- Insert
@@ -30,7 +31,8 @@ for _, mode in ipairs(modes) do
 end
 
 -- Extra Key Mappings
-local mappings = {
+local mappings = 
+{
 	--  Mode	Key			Command
 	{   'n',    '<Tab>',   	'>>' 			},	-- Indent
 	{   'v',    '<Tab>',   	'>gv' 			},
@@ -41,7 +43,7 @@ local mappings = {
 	{   'n',    '<CR>',    	'o<Esc>' 		},	-- New Line
 	{   'v',    '<CR>',    	'<Esc>o<Esc>v' 	},
 	{   'i',    'ii',      	'<Esc>' 		},	-- 'ii' is now Esc
-	}
+}
 	
 for _, map in ipairs(mappings) do
 	vim.api.nvim_set_keymap(map[1], map[2], map[3], { noremap = true, silent = true, nowait = true })
