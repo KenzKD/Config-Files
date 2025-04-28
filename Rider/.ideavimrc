@@ -1,0 +1,58 @@
+" Define modes
+let modes = ['n', 'v', 'o']
+
+" Define key mappings
+let keys = {
+\ 'b': 'n', " Find "next"
+\ 'j': 'e', " End of Word
+\ 'k': 'i', " Insert
+\ 'w': 'o', " Open Below
+\ 'n': 'b', " Go Previous Word
+\ 'e': 'j', " Go Up
+\ 'i': 'k', " Go Down
+\ 'o': 'w', " Go Next Word
+\ 'h': 's', " Substitute Char
+\ 'l': 't', " Until Char
+\ 's': 'h', " Go Left
+\ 't': 'l', " Go Right
+\ 'd': 'r', " Replace
+\ 'r': 'd'  " Delete
+\ }
+
+" Remap Keys
+for mode in modes
+  for key in keys
+    execute 'nnoremap' mode key keys[key]
+    execute 'nnoremap' mode toupper(key) toupper(keys[key])
+  endfor
+endfor
+
+" Define extra key mappings
+let mappings = [
+\ ['n', '<Tab>', '>>'], " Indent
+\ ['v', '<Tab>', '>gv'],
+\ ['n', '<S-Tab>', '<<'], " Outdent
+\ ['v', '<S-Tab>', '<gv'],
+\ ['n', '<BS>', 'X'], " Delete Char
+\ ['v', '<BS>', 'X'],
+\ ['n', '<CR>', 'o<Esc>'], " New Line
+\ ['v', '<CR>', '<Esc>o<Esc>v'],
+\ ['i', 'ii', '<Esc>'] " 'ii' is now Esc
+\ ]
+
+for map in mappings
+  execute map[0] . 'noremap ' . map[1] . ' ' . map[2]
+endfor
+
+" Enable NeoVim Editor Features
+set clipboard=unnamedplus " Use OS Clipboard
+set number relativenumber " Show Line Numbers
+set breakindent " Enable break indent
+set undofile " Save undo history
+set ignorecase smartcase " Case-insensitive searching
+set signcolumn=yes " Keep signcolumn on by default
+set updatetime=250 " Decrease update time
+set timeoutlen=300 " Decrease mapped sequence wait time
+set cursorline " Show which line your cursor is on
+set scrolloff=10 " Minimal number of screen lines to keep above and below the cursor
+set mouse=a " Enable mouse mode
