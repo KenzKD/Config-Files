@@ -31,6 +31,16 @@
   <Settings>
     <Component>
       <Type>JCheckBox</Type>
+      <Name>casePrefix</Name>
+      <Value>false</Value>
+    </Component>
+    <Component>
+      <Type>JTextField</Type>
+      <Name>txtPrefix</Name>
+      <Value/>
+    </Component>
+    <Component>
+      <Type>JCheckBox</Type>
       <Name>btnExtension</Name>
       <Value>true</Value>
     </Component>
@@ -66,7 +76,7 @@
     <Component>
       <Type>JComboBox</Type>
       <Name>comboAccel</Name>
-      <Value>none</Value>
+      <Value>Nvidia NVENC</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
@@ -111,6 +121,13 @@
       <Value>Adapt</Value>
       <Enable>true</Enable>
       <Visible>false</Visible>
+    </Component>
+    <Component>
+      <Type>JCheckBox</Type>
+      <Name>btnNoUpscale</Name>
+      <Value>false</Value>
+      <Enable>true</Enable>
+      <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JCheckBox</Type>
@@ -239,7 +256,7 @@
       <Visible>true</Visible>
     </Component>
     <Component>
-      <Type>JLabel</Type>
+      <Type>JComboBox</Type>
       <Name>lblAudioMapping</Name>
       <Value>Stereo</Value>
       <Enable>true</Enable>
@@ -347,14 +364,14 @@
       <Type>JCheckBox</Type>
       <Name>caseForcerEntrelacement</Name>
       <Value>false</Value>
-      <Enable>true</Enable>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JCheckBox</Type>
       <Name>caseForceOutput</Name>
       <Value>false</Value>
-      <Enable>true</Enable>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
@@ -389,7 +406,7 @@
       <Type>JCheckBox</Type>
       <Name>caseForcePreset</Name>
       <Value>false</Value>
-      <Enable>true</Enable>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
@@ -403,7 +420,7 @@
       <Type>JCheckBox</Type>
       <Name>caseForceTune</Name>
       <Value>false</Value>
-      <Enable>true</Enable>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
@@ -474,6 +491,13 @@
       <Name>caseCreateTree</Name>
       <Value>false</Value>
       <Enable>true</Enable>
+      <Visible>true</Visible>
+    </Component>
+    <Component>
+      <Type>JComboBox</Type>
+      <Name>comboCreateTree</Name>
+      <Value>0</Value>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
@@ -661,28 +685,28 @@
     <Component>
       <Type>JTextField</Type>
       <Name>textCropPosX</Name>
-      <Value>0</Value>
+      <Value>61</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropPosY</Name>
-      <Value>0</Value>
+      <Value>125</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropWidth</Name>
-      <Value>0</Value>
+      <Value>122</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropHeight</Name>
-      <Value>0</Value>
+      <Value>249</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
@@ -835,7 +859,7 @@
     </Component>
     <Component>
       <Type>JTextField</Type>
-      <Name>text</Name>
+      <Name>overlayText</Name>
       <Value/>
       <Enable>false</Enable>
       <Visible>true</Visible>
@@ -1326,21 +1350,21 @@
     <Component>
       <Type>JTextField</Type>
       <Name>textS</Name>
-      <Value>55</Value>
+      <Value>01</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textF</Name>
-      <Value>34</Value>
+      <Value>06</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JComboBox</Type>
       <Name>debitVideo</Name>
-      <Value>2545</Value>
+      <Value>147200</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
@@ -1367,7 +1391,7 @@
     </Component>
     <Component>
       <Type>JLabel</Type>
-      <Name>unlock</Name>
+      <Name>lock</Name>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
@@ -1375,13 +1399,13 @@
       <Type>JCheckBox</Type>
       <Name>case2pass</Name>
       <Value>false</Value>
-      <Enable>true</Enable>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JCheckBox</Type>
       <Name>caseQMax</Name>
-      <Value>false</Value>
+      <Value>true</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>

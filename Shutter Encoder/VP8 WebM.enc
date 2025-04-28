@@ -37,7 +37,7 @@
     <Component>
       <Type>JTextField</Type>
       <Name>txtExtension</Name>
-      <Value> VP8_WebM</Value>
+      <Value> VP8_WebM_Alpha</Value>
     </Component>
     <Component>
       <Type>JCheckBox</Type>
@@ -626,28 +626,28 @@
     <Component>
       <Type>JTextField</Type>
       <Name>textCropPosX</Name>
-      <Value>0</Value>
+      <Value>480</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropPosY</Name>
-      <Value>0</Value>
+      <Value>270</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropWidth</Name>
-      <Value>0</Value>
+      <Value>960</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropHeight</Name>
-      <Value>0</Value>
+      <Value>540</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
@@ -1305,7 +1305,7 @@
     <Component>
       <Type>JComboBox</Type>
       <Name>debitVideo</Name>
-      <Value>2545</Value>
+      <Value>2489</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
@@ -1332,14 +1332,14 @@
     </Component>
     <Component>
       <Type>JLabel</Type>
-      <Name>unlock</Name>
+      <Name>lock</Name>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JCheckBox</Type>
       <Name>case2pass</Name>
-      <Value>false</Value>
+      <Value>true</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>

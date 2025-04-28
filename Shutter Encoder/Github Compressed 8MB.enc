@@ -37,7 +37,7 @@
     <Component>
       <Type>JTextField</Type>
       <Name>txtExtension</Name>
-      <Value> VP8_WebM</Value>
+      <Value> Github</Value>
     </Component>
     <Component>
       <Type>JCheckBox</Type>
@@ -66,21 +66,21 @@
     <Component>
       <Type>JComboBox</Type>
       <Name>comboAccel</Name>
-      <Value>none</Value>
-      <Enable>false</Enable>
-      <Visible>false</Visible>
+      <Value>Nvidia NVENC</Value>
+      <Enable>true</Enable>
+      <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JComboBox</Type>
       <Name>comboFonctions</Name>
-      <Value>VP8</Value>
+      <Value>H.264</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JComboBox</Type>
       <Name>comboFilter</Name>
-      <Value>.webm</Value>
+      <Value>.mp4</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
@@ -111,6 +111,13 @@
       <Value>Adapt</Value>
       <Enable>true</Enable>
       <Visible>false</Visible>
+    </Component>
+    <Component>
+      <Type>JCheckBox</Type>
+      <Name>btnNoUpscale</Name>
+      <Value>false</Value>
+      <Enable>true</Enable>
+      <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JCheckBox</Type>
@@ -234,12 +241,12 @@
     <Component>
       <Type>JComboBox</Type>
       <Name>comboAudioCodec</Name>
-      <Value>Opus</Value>
+      <Value>AAC</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
-      <Type>JLabel</Type>
+      <Type>JComboBox</Type>
       <Name>lblAudioMapping</Name>
       <Value>Stereo</Value>
       <Enable>true</Enable>
@@ -345,29 +352,57 @@
     </Component>
     <Component>
       <Type>JCheckBox</Type>
-      <Name>caseForceQuality</Name>
+      <Name>caseForcerEntrelacement</Name>
       <Value>false</Value>
-      <Enable>false</Enable>
-      <Visible>true</Visible>
-    </Component>
-    <Component>
-      <Type>JComboBox</Type>
-      <Name>comboForceQuality</Name>
-      <Value>good</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JCheckBox</Type>
-      <Name>caseForceSpeed</Name>
+      <Name>caseForceOutput</Name>
+      <Value>false</Value>
+      <Enable>false</Enable>
+      <Visible>true</Visible>
+    </Component>
+    <Component>
+      <Type>JLabel</Type>
+      <Name>lblNiveaux</Name>
+      <Value>0-255</Value>
+      <Enable>true</Enable>
+      <Visible>true</Visible>
+    </Component>
+    <Component>
+      <Type>JCheckBox</Type>
+      <Name>caseForceLevel</Name>
+      <Value>false</Value>
+      <Enable>true</Enable>
+      <Visible>true</Visible>
+    </Component>
+    <Component>
+      <Type>JComboBox</Type>
+      <Name>comboForceProfile</Name>
+      <Value>high</Value>
+      <Enable>false</Enable>
+      <Visible>true</Visible>
+    </Component>
+    <Component>
+      <Type>JComboBox</Type>
+      <Name>comboForceLevel</Name>
+      <Value>5.1</Value>
+      <Enable>false</Enable>
+      <Visible>true</Visible>
+    </Component>
+    <Component>
+      <Type>JCheckBox</Type>
+      <Name>caseForcePreset</Name>
       <Value>false</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JComboBox</Type>
-      <Name>comboForceSpeed</Name>
-      <Value>4</Value>
+      <Name>comboForcePreset</Name>
+      <Value>medium</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
@@ -375,7 +410,7 @@
       <Type>JCheckBox</Type>
       <Name>caseForceTune</Name>
       <Value>false</Value>
-      <Enable>true</Enable>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
@@ -387,7 +422,7 @@
     </Component>
     <Component>
       <Type>JCheckBox</Type>
-      <Name>caseAlpha</Name>
+      <Name>caseFastStart</Name>
       <Value>false</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
@@ -408,6 +443,13 @@
     </Component>
     <Component>
       <Type>JCheckBox</Type>
+      <Name>caseCABAC</Name>
+      <Value>false</Value>
+      <Enable>true</Enable>
+      <Visible>true</Visible>
+    </Component>
+    <Component>
+      <Type>JCheckBox</Type>
       <Name>caseDecimate</Name>
       <Value>false</Value>
       <Enable>true</Enable>
@@ -416,7 +458,7 @@
     <Component>
       <Type>JCheckBox</Type>
       <Name>caseConform</Name>
-      <Value>true</Value>
+      <Value>false</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
@@ -424,14 +466,14 @@
       <Type>JComboBox</Type>
       <Name>comboConform</Name>
       <Value>Blending</Value>
-      <Enable>true</Enable>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JComboBox</Type>
       <Name>comboFPS</Name>
-      <Value>24</Value>
-      <Enable>true</Enable>
+      <Value>25</Value>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
@@ -439,6 +481,13 @@
       <Name>caseCreateTree</Name>
       <Value>false</Value>
       <Enable>true</Enable>
+      <Visible>true</Visible>
+    </Component>
+    <Component>
+      <Type>JComboBox</Type>
+      <Name>comboCreateTree</Name>
+      <Value>0</Value>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
@@ -626,28 +675,28 @@
     <Component>
       <Type>JTextField</Type>
       <Name>textCropPosX</Name>
-      <Value>480</Value>
+      <Value>0</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropPosY</Name>
-      <Value>270</Value>
+      <Value>0</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropWidth</Name>
-      <Value>960</Value>
+      <Value>0</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textCropHeight</Name>
-      <Value>540</Value>
+      <Value>0</Value>
       <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
@@ -800,7 +849,7 @@
     </Component>
     <Component>
       <Type>JTextField</Type>
-      <Name>text</Name>
+      <Name>overlayText</Name>
       <Value/>
       <Enable>false</Enable>
       <Visible>true</Visible>
@@ -1291,21 +1340,21 @@
     <Component>
       <Type>JTextField</Type>
       <Name>textS</Name>
-      <Value>00</Value>
+      <Value>28</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JTextField</Type>
       <Name>textF</Name>
-      <Value>00</Value>
+      <Value>37</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JComboBox</Type>
       <Name>debitVideo</Name>
-      <Value>999</Value>
+      <Value>2084</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
@@ -1314,12 +1363,12 @@
       <Name>maximumBitrate</Name>
       <Value>auto</Value>
       <Enable>true</Enable>
-      <Visible>false</Visible>
+      <Visible>true</Visible>
     </Component>
     <Component>
       <Type>JComboBox</Type>
       <Name>debitAudio</Name>
-      <Value>192</Value>
+      <Value>256</Value>
       <Enable>true</Enable>
       <Visible>true</Visible>
     </Component>
@@ -1339,8 +1388,8 @@
     <Component>
       <Type>JCheckBox</Type>
       <Name>case2pass</Name>
-      <Value>true</Value>
-      <Enable>true</Enable>
+      <Value>false</Value>
+      <Enable>false</Enable>
       <Visible>true</Visible>
     </Component>
     <Component>
@@ -1355,7 +1404,7 @@
       <Name>lblVBR</Name>
       <Value>VBR</Value>
       <Enable>true</Enable>
-      <Visible>false</Visible>
+      <Visible>true</Visible>
     </Component>
   </Settings>
   <Color>
