@@ -97,9 +97,3 @@ vim.o.scrolloff = 10
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
-
-if vim.g.vscode then
-    -- VSCode extension
-else
-	require("config.lazy")
-end

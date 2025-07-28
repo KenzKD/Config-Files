@@ -1,0 +1,143 @@
+" ~/.ideavimrc
+
+" Remapped keys for Normal, Visual, and Operator-pending modes
+" b ↔ n
+nnoremap <silent> b n
+vnoremap <silent> b n
+onoremap <silent> b n
+nnoremap <silent> B N
+vnoremap <silent> B N
+onoremap <silent> B N
+
+" j ↔ e
+nnoremap <silent> j e
+vnoremap <silent> j e
+onoremap <silent> j e
+nnoremap <silent> J E
+vnoremap <silent> J E
+onoremap <silent> J E
+
+" k ↔ i
+nnoremap <silent> k i
+vnoremap <silent> k i
+onoremap <silent> k i
+nnoremap <silent> K I
+vnoremap <silent> K I
+onoremap <silent> K I
+
+" w ↔ o
+nnoremap <silent> w o
+vnoremap <silent> w o
+onoremap <silent> w o
+nnoremap <silent> W O
+vnoremap <silent> W O
+onoremap <silent> W O
+
+" n ↔ b
+nnoremap <silent> n b
+vnoremap <silent> n b
+onoremap <silent> n b
+nnoremap <silent> N B
+vnoremap <silent> N B
+onoremap <silent> N B
+
+" e ↔ j
+nnoremap <silent> e j
+vnoremap <silent> e j
+onoremap <silent> e j
+nnoremap <silent> E J
+vnoremap <silent> E J
+onoremap <silent> E J
+
+" i ↔ k
+nnoremap <silent> i k
+vnoremap <silent> i k
+onoremap <silent> i k
+nnoremap <silent> I K
+vnoremap <silent> I K
+onoremap <silent> I K
+
+" o ↔ w
+nnoremap <silent> o w
+vnoremap <silent> o w
+onoremap <silent> o w
+nnoremap <silent> O W
+vnoremap <silent> O W
+onoremap <silent> O W
+
+" h ↔ s
+nnoremap <silent> h s
+vnoremap <silent> h s
+onoremap <silent> h s
+nnoremap <silent> H S
+vnoremap <silent> H S
+onoremap <silent> H S
+
+" l ↔ t
+nnoremap <silent> l t
+vnoremap <silent> l t
+onoremap <silent> l t
+nnoremap <silent> L T
+vnoremap <silent> L T
+onoremap <silent> L T
+
+" s ↔ h
+nnoremap <silent> s h
+vnoremap <silent> s h
+onoremap <silent> s h
+nnoremap <silent> S H
+vnoremap <silent> S H
+onoremap <silent> S H
+
+" t ↔ l
+nnoremap <silent> t l
+vnoremap <silent> t l
+onoremap <silent> t l
+nnoremap <silent> T L
+vnoremap <silent> T L
+onoremap <silent> T L
+
+" d ↔ r
+nnoremap <silent> d r
+vnoremap <silent> d r
+onoremap <silent> d r
+nnoremap <silent> D R
+vnoremap <silent> D R
+onoremap <silent> D R
+
+" r ↔ d
+nnoremap <silent> r d
+vnoremap <silent> r d
+onoremap <silent> r d
+nnoremap <silent> R D
+vnoremap <silent> R D
+onoremap <silent> R D
+
+" Extra key mappings
+nnoremap <silent> <Tab>   >>
+vnoremap <silent> <Tab>   >gv
+nnoremap <silent> <S-Tab> <<
+vnoremap <silent> <S-Tab> <gv
+nnoremap <silent> <BS>    X
+vnoremap <silent> <BS>    X
+nnoremap <silent> <CR>    o<Esc>
+vnoremap <silent> <CR>    <Esc>o<Esc>v
+inoremap <silent> ii      <Esc>
+
+" VS Code Shortcuts notes:
+" 1. Deactivated Neovim keybindings: Ctrl+A, Ctrl+C, Ctrl+S, Ctrl+X, Ctrl+V, Ctrl+Z
+" 2. ii → <Esc>, Tab/BackSpace/Enter remain default in N/V modes
+
+" Enable Neovim Editor Features (as supported by IdeaVim)
+set clipboard=unnamedplus
+set number relativenumber
+set breakindent
+set undofile
+set ignorecase
+set smartcase
+set signcolumn=yes
+set updatetime=250
+set timeoutlen=300
+set cursorline
+set scrolloff=10
+set mouse=a
