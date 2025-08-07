@@ -1,0 +1,12 @@
+3D Effect
+Advanced Scene Switcher
+Downstream Keyer
+Gradient Source
+Move
+OBS Advanced Masks
+OBS Composite Blur
+OBS Quick Access Utility
+OBS Stroke Glow Shadow
+Source Record
+Source Clone
+Source Record
