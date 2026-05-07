@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="Default" Platform="Windows" Runtime="VM" Device="Default">
+	<Desktop x="0" y="29" width="1920" height="1051" id="19" title="BingoPrototype - GameMaker" windowState="Maximized" dpi="120">
+		<Workspaces>
+			<Workspace active="False" chain="False" title="Obj_StartController Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;Obj_StartController&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="Obj_StartController">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_StartController\Create_0.gml" cursorLine="4" cursorColumn="90" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Obj_Board Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;Obj_Board&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="Obj_Board">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Board\Create_0.gml" cursorLine="41" cursorColumn="62" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Board\Alarm_0.gml" cursorLine="0" cursorColumn="8" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Board\Alarm_1.gml" cursorLine="0" cursorColumn="10" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Board\Alarm_2.gml" cursorLine="0" cursorColumn="21" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Board\Draw_0.gml" cursorLine="2" cursorColumn="20" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Obj_ClientSim Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;Obj_ClientSim&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="Obj_ClientSim">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_ClientSim\Create_0.gml" cursorLine="0" cursorColumn="0" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Obj_Card Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;Obj_Card&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="Obj_Card">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Card\Create_0.gml" cursorLine="45" cursorColumn="19" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="True" chain="False" title="Obj_Numbers Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;Obj_Numbers&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="Obj_Numbers">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Numbers\Create_0.gml" cursorLine="1" cursorColumn="20" isFocused="True" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Numbers\Alarm_0.gml" cursorLine="0" cursorColumn="0" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Numbers\Draw_0.gml" cursorLine="0" cursorColumn="0" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Numbers\Gesture_0.gml" cursorLine="0" cursorColumn="0" isFocused="False" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="GameStructs Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;GameStructs&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="GameStructs">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\scripts\GameStructs\GameStructs.gml" cursorLine="0" cursorColumn="0" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Expanded" type="eRight" restore_size="305.6dpi_px" active_tab="0">
+			<DockTab localise_title="Inspector_WindowTitle" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="c4f63b36-5a6d-42ff-9279-f8bc84a95e6d">
+				<Module Command="open_inspector">
+					<Inspector resName="Obj_Numbers">
+						<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="340dpi_px" height="600dpi_px" flags="Default" title="Inspector: Obj_Numbers" localise_title="Inspector_WindowTitleArg" />
+					</Inspector>
+				</Module>
+			</DockTab>
+			<DockTab localise_title="ResourceTree_Title" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="4a732d1a-e105-4b42-8c89-c9135f1ed620">
+				<Module Command="open_asset_browser">
+					<AssetBrowser sort="AtoZ" foldersFirst="True" zoom="100">
+						<Window left="" right="" top="" bottom="" width="370dpi_px" height="463dpi_px" flags="Default" title="Asset Browser" localise_title="AssetBrowser_Title" />
+					</AssetBrowser>
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Expanded" type="eBottom" restore_size="200dpi_px" active_tab="5">
+			<DockTab localise_title="OutputPanel_Output" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="a2237b41-0a5d-452f-8c22-c65d30710eb1">
+				<Module Command="open_output_panel">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Output" localise_title="OutputPanel_Title" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="OutputPanel_SearchResults" cell_sizes="[1000]" layout_id="dock_tab_2" layout_guid="f49ae114-bb96-4e2a-87b3-bd383bcf0130">
+				<Module Command="open_search_output_panel">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Search Results" localise_title="OutputPanel_SearchResults" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="OutputPanel_SourceControl" cell_sizes="[1000]" layout_id="dock_tab_3" layout_guid="4118f733-9df9-410c-afe9-c766a5fec2af">
+				<Module Command="open_sc_output_panel">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Source Control" localise_title="OutputPanel_SourceControl" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Breakpoints" cell_sizes="[1000]" layout_id="dock_tab_4" layout_guid="2d206499-5ac1-4566-9e0e-41636471c37c">
+				<Module Command="open_breakpoint_mgr">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Breakpoints" localise_title="Breakpoints" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="CompileErrors" cell_sizes="[1000]" layout_id="dock_tab_5" layout_guid="a5bccabb-ac89-4a15-a70f-b105cd14a820">
+				<Module Command="show_compile_errors">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Compile Errors" localise_title="CompileErrors" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Diagnostics_Title" cell_sizes="[1000]" layout_id="Diagnostics" layout_guid="13f3a856-20cf-4df7-bf40-384595430c96">
+				<Module Command="diagnostics_initialized">
+					<Window left="" right="" top="" bottom="" width="800dpi_px" height="600dpi_px" flags="Default" title="Diagnostics" localise_title="Diagnostics_Title" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="PrefabLibrary" cell_sizes="[1000]" layout_id="Prefabs" layout_guid="13f3a856-20cf-4df7-bf40-384595430c96">
+				<Module Command="open_prefab_library">
+					<PrefabLibrary>
+						<Window left="" right="" top="" bottom="" width="930dpi_px" height="600dpi_px" flags="Default" title="Prefab Library - Available Prefabs" localise_title="PrefabLibrary" />
+					</PrefabLibrary>
+				</Module>
+			</DockTab>
+		</Dock>
+	</Desktop>
+</Project>
