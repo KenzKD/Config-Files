@@ -1,1 +1,123 @@
-{"version":"2.0.126","settings":{"blur":0,"brightness":100,"contrast":100,"grayscale":0,"huerotate":0,"invert":0,"saturate":100,"sepia":0,"applyvideofilters":false,"backgroundcolor":"#000000","backgroundopacity":85,"blackbars":false,"blockautoplay":true,"blockhfrformats":false,"blockwebmformats":false,"boostvolume":false,"cinemamode":false,"cinemamodewideplayer":true,"controlbar":{"active":false,"autohide":false,"centered":true,"position":"absolute"},"controls":["volume-booster","speed","options"],"controlsvisible":true,"controlspeed":true,"controlspeedmousebutton":false,"controlvolume":false,"controlvolumemousebutton":false,"convertshorts":false,"customcolors":{"--main-color":"#00adee","--main-background":"#111111","--second-background":"#181818","--hover-background":"#232323","--main-text":"#eff0f1","--dimmer-text":"#cccccc","--shadow":"#000000"},"customcssrules":"","customscript":"","customtheme":false,"darktheme":false,"date":1616980457630,"defaultvolume":false,"disableautoplay":true,"executescript":false,"expanddescription":false,"filter":"none","hidecardsendscreens":false,"hidechat":false,"hidecomments":false,"hiderelated":false,"hideshorts":false,"ignoreplaylists":true,"ignorepopupplayer":true,"localecode":"en_GB","localedir":"ltr","message":false,"miniplayer":true,"miniplayerposition":"_bottom-right","miniplayersize":"_960x540","newestcomments":false,"overridespeeds":true,"pauseforegroundtab":false,"pausevideos":true,"popuplayersize":"640x360","qualityembeds":"hd1080","qualityembedsfullscreen":"hd1080","qualityplaylists":"hd1080","qualityplaylistsfullscreen":"hd1080","qualityvideos":"hd1080","qualityvideosfullscreen":"hd1080","reload":false,"reversemousewheeldirection":false,"selectquality":true,"selectqualityfullscreenoff":false,"selectqualityfullscreenon":false,"speed":1,"speedvariation":0.1,"stopvideos":false,"theatermode":false,"theme":"default-dark","themevariant":"youtube-deep-dark.css","update":1718915175659,"volume":50,"volumemultiplier":10,"volumevariation":5,"wideplayer":false,"wideplayerviewport":false}}
+{
+  "version": "2.0.133.1",
+  "settings": {
+    "blur": 0,
+    "brightness": 100,
+    "contrast": 100,
+    "grayscale": 0,
+    "huerotate": 0,
+    "invert": 0,
+    "saturate": 100,
+    "sepia": 0,
+    "applyvideofilters": false,
+    "backgroundcolor": "#000000",
+    "backgroundopacity": 85,
+    "blackbars": false,
+    "blockautoplay": true,
+    "blockhfrformats": false,
+    "blockwebmformats": false,
+    "boostvolume": false,
+    "cinemamode": false,
+    "cinemamodewideplayer": true,
+    "controlbar": {
+      "active": false,
+      "autohide": false,
+      "centered": true,
+      "position": "absolute"
+    },
+    "controls": [
+      "volume-booster",
+      "speed",
+      "options"
+    ],
+    "controlsvisible": true,
+    "controlspeed": false,
+    "controlspeedmousebutton": false,
+    "controlvolume": false,
+    "controlvolumemousebutton": false,
+    "convertshorts": false,
+    "customcolors": {
+      "--main-color": "#00adee",
+      "--main-background": "#111111",
+      "--second-background": "#181818",
+      "--hover-background": "#232323",
+      "--main-text": "#eff0f1",
+      "--dimmer-text": "#cccccc",
+      "--shadow": "#000000"
+    },
+    "customcssrules": "",
+    "customscript": "// ============================================================\n// Enhancer for YouTube™ — Remember Speed Per Channel (v13)\n// Paste this into: EfYT Options → Custom Script\n// ============================================================\n\n(function ()\n{\n    \"use strict\";\n\n    const APPLY_DELAY_MS = 1500;\n    const EFYT_KEY       = \"enhancer-for-youtube\";\n    const CH_PREFIX      = \"efyt_ch_speed::\";\n    const CH_SELECTORS   = [\n        \"ytd-channel-name a\",\n        \"#channel-name a\",\n        \"yt-formatted-string#channel-name a\",\n        \"#owner a.yt-simple-endpoint[href*='/@']\",\n        \"a.yt-simple-endpoint[href*='/@']\",\n    ];\n\n    let suppressSave = false;\n    let video        = null;\n\n    // -----------------------------------------------------------\n    // Helpers\n    // -----------------------------------------------------------\n\n    function getEfytDefaultSpeed()\n    {\n        try   { return JSON.parse(localStorage.getItem(EFYT_KEY))?.speed || 1; }\n        catch { return 1; }\n    }\n\n    function getChannelId()\n    {\n        for (const sel of CH_SELECTORS)\n        {\n            try\n            {\n                const path = new URL(document.querySelector(sel)?.href ?? \"\").pathname.toLowerCase();\n                if (path.startsWith(\"/@\") || path.startsWith(\"/channel/\")) return path;\n            }\n            catch (_) {}\n        }\n        return null;\n    }\n\n    function loadChannelSpeed(id)\n    {\n        const n = parseFloat(localStorage.getItem(CH_PREFIX + id));\n        return n > 0 ? n : null;\n    }\n\n    function saveChannelSpeed(id, speed)\n    {\n        const def = getEfytDefaultSpeed();\n        if (Math.abs(speed - def) < 0.001)\n        {\n            localStorage.removeItem(CH_PREFIX + id);\n            console.log(`[EfYT-ChSpeed] Cleared override for ${id} (matches default ${def}x)`);\n        }\n        else\n        {\n            localStorage.setItem(CH_PREFIX + id, String(speed));\n            console.log(`[EfYT-ChSpeed] Saved ${speed}x for ${id}`);\n        }\n    }\n\n    // -----------------------------------------------------------\n    // Step EfYT to target speed using its own +/- buttons\n    // -----------------------------------------------------------\n\n    function stepToSpeed(target)\n    {\n        const v     = document.querySelector(\"video\");\n        const plus  = document.getElementById(\"efyt-speed-plus\");\n        const minus = document.getElementById(\"efyt-speed-minus\");\n        if (!v || !plus || !minus || Math.abs(v.playbackRate - target) < 0.001) return;\n\n        const before = v.playbackRate;\n        (target > before ? plus : minus).click();\n\n        const step = Math.abs(v.playbackRate - before);\n        if (!step) return;\n\n        const after  = v.playbackRate;\n        const clicks = Math.round((target - after) / step);\n        const btn    = clicks > 0 ? plus : minus;\n        for (let i = 0; i < Math.abs(clicks); i++) btn.click();\n        console.log(`[EfYT-ChSpeed] Stepped to ${v.playbackRate}x`);\n    }\n\n    // -----------------------------------------------------------\n    // Main: run on every YouTube navigation\n    // -----------------------------------------------------------\n\n    function onRateChange()\n    {\n        if (!suppressSave) saveChannelSpeed(getChannelId(), video.playbackRate);\n    }\n\n    function onSpeedHover()\n    {\n        setTimeout(() =>\n        {\n            const tooltip = document.querySelector(\".ytp-efyt-tooltip .ytp-tooltip-text\");\n            if (tooltip) tooltip.textContent = `Speed (${video?.playbackRate}x)`;\n        }, 50);\n    }\n\n    function onVideoNavigation()\n    {\n        setTimeout(() =>\n        {\n            const v = document.querySelector(\"video\");\n            if (!v) return;\n\n            if (v !== video)\n            {\n                video?.removeEventListener(\"ratechange\", onRateChange);\n                v.addEventListener(\"ratechange\", onRateChange);\n                video = v;\n            }\n\n            // Re-bind on each navigation in case the button was recreated by EfYT\n            const speedBtn = document.getElementById(\"efyt-speed\");\n            if (speedBtn)\n            {\n                speedBtn.removeEventListener(\"mouseenter\", onSpeedHover);\n                speedBtn.addEventListener(\"mouseenter\", onSpeedHover);\n            }\n\n            const id    = getChannelId();\n            const saved = id && loadChannelSpeed(id);\n            if (!saved) return;\n\n            console.log(`[EfYT-ChSpeed] Restoring ${saved}x for ${id}`);\n            suppressSave = true;\n            stepToSpeed(saved);\n            setTimeout(() => { suppressSave = false; }, 500);\n        }, APPLY_DELAY_MS);\n    }\n\n    window.addEventListener(\"yt-navigate-finish\", onVideoNavigation);\n\n    // -----------------------------------------------------------\n    // Public API — all internals exposed on window.efytSpeed\n    // -----------------------------------------------------------\n\n    // Returns all localStorage keys belonging to this script\n    const chKeys = () => Object.keys(localStorage).filter(k => k.startsWith(CH_PREFIX));\n\n    window.efytSpeed =\n    {\n        refresh: () =>\n        {\n            console.log(\"[EfYT-ChSpeed] Manual refresh.\");\n            onVideoNavigation();\n        },\n\n        getChannelId: () =>\n        {\n            const id = getChannelId();\n            console.log(\"[EfYT-ChSpeed] Channel ID:\", id ?? \"(not found)\");\n            return id;\n        },\n\n        getDefaultSpeed: () =>\n        {\n            const s = getEfytDefaultSpeed();\n            console.log(\"[EfYT-ChSpeed] Default:\", s + \"x\");\n            return s;\n        },\n\n        getSpeed: (id = getChannelId()) =>\n        {\n            const s = id && loadChannelSpeed(id);\n            console.log(`[EfYT-ChSpeed] Speed for ${id}:`, s ? s + \"x\" : \"(none)\");\n            return s;\n        },\n\n        setSpeed: (speed, id = getChannelId()) =>\n        {\n            if (!id) { console.warn(\"[EfYT-ChSpeed] No channel detected.\"); return; }\n            saveChannelSpeed(id, speed);\n            stepToSpeed(speed);\n        },\n\n        clearSpeed: (id = getChannelId()) =>\n        {\n            if (!id) { console.warn(\"[EfYT-ChSpeed] No channel detected.\"); return; }\n            localStorage.removeItem(CH_PREFIX + id);\n            console.log(`[EfYT-ChSpeed] Cleared speed for ${id}.`);\n        },\n        clearAll: () =>\n        {\n            const keys = chKeys();\n            keys.forEach(k => localStorage.removeItem(k));\n            console.log(`[EfYT-ChSpeed] Cleared ${keys.length} override(s).`);\n        },\n\n        export: () =>\n        {\n            const out  = Object.fromEntries(chKeys().map(k => [k.slice(CH_PREFIX.length), parseFloat(localStorage.getItem(k))]));\n            const json = JSON.stringify(out, null, 2);\n            console.log(\"%c[EfYT-ChSpeed] Copy the JSON below:\", \"color:#aaa;font-style:italic\");\n            console.log(\"%c----------------------------------------\", \"color:#444\");\n            console.log(json);\n            console.log(\"%c----------------------------------------\", \"color:#444\");\n            return out;\n        },\n\n        import: (data) =>\n        {\n            if (typeof data === \"string\")\n            {\n                try   { data = JSON.parse(data); }\n                catch (_) { console.error(\"[EfYT-ChSpeed] Import failed — invalid JSON.\"); return; }\n            }\n            let count = 0;\n            for (const [id, sp] of Object.entries(data))\n            {\n                const n = parseFloat(sp);\n                if (isNaN(n) || n <= 0) continue;\n                localStorage.setItem(CH_PREFIX + id, String(n));\n                count++;\n            }\n            console.log(`[EfYT-ChSpeed] Imported ${count} channel(s).`);\n        },\n\n        help: () => console.log(\n            `%c[EfYT-ChSpeed] Commands:\n  efytSpeed.refresh()\n  efytSpeed.getChannelId()\n  efytSpeed.getDefaultSpeed()\n  efytSpeed.getSpeed([id])\n  efytSpeed.setSpeed(n [,id])\n  efytSpeed.clearSpeed([id])\n  efytSpeed.clearAll()\n  efytSpeed.export()\n  efytSpeed.import(obj|json)`,\n            \"color:#fff;font-weight:bold\"\n        ),\n    };\n\n    console.log(\"%c[EfYT-ChSpeed] Active. %cType efytSpeed.help() for commands.\", \"color:#fff;font-weight:bold\", \"color:#aaa\");\n})();",
+    "customtheme": false,
+    "darktheme": false,
+    "date": 1616980457630,
+    "defaultvolume": false,
+    "disableautoplay": true,
+    "executescript": true,
+    "expanddescription": false,
+    "filter": "none",
+    "griditemsperrow": {
+      "channel": {
+        "shorts": {
+          "apply": false,
+          "count": 5
+        },
+        "videos": {
+          "apply": false,
+          "count": 4
+        }
+      },
+      "posts": {
+        "apply": false,
+        "count": 4
+      },
+      "shorts": {
+        "apply": false,
+        "count": 8
+      },
+      "videos": {
+        "apply": false,
+        "count": 4
+      }
+    },
+    "hidecardsendscreens": false,
+    "hidechat": false,
+    "hidecomments": false,
+    "hiderelated": false,
+    "hideshorts": false,
+    "ignoreplaylists": true,
+    "ignorepopupplayer": true,
+    "localecode": "en_GB",
+    "localedir": "ltr",
+    "miniplayer": true,
+    "miniplayerposition": "_bottom-right",
+    "miniplayersize": "_960x540",
+    "newestcomments": false,
+    "overridespeeds": false,
+    "pauseforegroundtab": false,
+    "pausevideos": true,
+    "qualityembeds": "hd1080",
+    "qualityembedsfullscreen": "hd1080",
+    "qualityplaylists": "hd1080",
+    "qualityplaylistsfullscreen": "hd1080",
+    "qualityvideos": "hd1080",
+    "qualityvideosfullscreen": "hd1080",
+    "reload": false,
+    "reversemousewheeldirection": false,
+    "selectquality": true,
+    "selectqualityfullscreenoff": false,
+    "selectqualityfullscreenon": false,
+    "speed": 2,
+    "speedvariation": 0.25,
+    "stopvideos": false,
+    "theatermode": false,
+    "theme": "default-dark",
+    "themevariant": "youtube-deep-dark.css",
+    "update": 1769616963722,
+    "volume": 50,
+    "volumemultiplier": 10,
+    "volumevariation": 5,
+    "whatsnew": false,
+    "wideplayer": false,
+    "wideplayerviewport": false
+  }
+}
