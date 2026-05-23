@@ -2,9 +2,9 @@
   {
     "windows": {
       "1": {
-        "3": {
-          "id": 3,
-          "index": 26,
+        "6": {
+          "id": 6,
+          "index": 23,
           "windowId": 1,
           "highlighted": true,
           "active": true,
@@ -16,7 +16,7 @@
           "incognito": false,
           "width": 1489,
           "height": 830,
-          "lastAccessed": 1777377978312,
+          "lastAccessed": 1779218078289,
           "audible": false,
           "autoDiscardable": true,
           "mutedInfo": {
@@ -31,12 +31,12 @@
           "groupId": -1,
           "splitViewId": -1,
           "cookieStoreId": "firefox-default",
-          "url": "about:support",
-          "title": "Troubleshooting Information",
-          "favIconUrl": "chrome://branding/content/icon32.png"
+          "url": "https://mattw.io/youtube-metadata/",
+          "title": "MW Metadata",
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEXXJAD///778fDcZV7xwb3XKg3ol4zYOyn10s9QPujrAAAAQUlEQVR4nGOgIzAUReUrCgqKMDAKCgpA+WyCQIAsAGQCOSgCQB6mAIga/AIgv6ALNCAJMIC9jyzAJChYgCJAfwAARWgIwx9/A94AAAAASUVORK5CYII="
         },
-        "6": {
-          "id": 6,
+        "9": {
+          "id": 9,
           "index": 0,
           "windowId": 1,
           "highlighted": false,
@@ -67,8 +67,8 @@
           "url": "https://mail.google.com/mail/u/0/#inbox",
           "title": "Inbox - kenzelkdsouza@gmail.com - Gmail"
         },
-        "7": {
-          "id": 7,
+        "10": {
+          "id": 10,
           "index": 1,
           "windowId": 1,
           "highlighted": false,
@@ -99,8 +99,8 @@
           "url": "https://studio.youtube.com/channel/UCxmsySbe12LYAMnIzT9wCJA/editing/profile",
           "title": "Channel customization - YouTube Studio"
         },
-        "8": {
-          "id": 8,
+        "11": {
+          "id": 11,
           "index": 2,
           "windowId": 1,
           "highlighted": false,
@@ -131,8 +131,8 @@
           "url": "https://www.youtube.com/@KenzelKD",
           "title": "Kenzel - YouTube"
         },
-        "9": {
-          "id": 9,
+        "12": {
+          "id": 12,
           "index": 3,
           "windowId": 1,
           "highlighted": false,
@@ -163,8 +163,8 @@
           "url": "https://www.youtube.com/@KenzelKD/shorts",
           "title": "Kenzel - YouTube"
         },
-        "10": {
-          "id": 10,
+        "13": {
+          "id": 13,
           "index": 4,
           "windowId": 1,
           "highlighted": false,
@@ -195,8 +195,8 @@
           "url": "https://www.linkedin.com/authwall?sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkenzelkd%2Frecent-activity%2Fall%2F",
           "title": "Sign Up | LinkedIn"
         },
-        "11": {
-          "id": 11,
+        "14": {
+          "id": 14,
           "index": 5,
           "windowId": 1,
           "highlighted": false,
@@ -227,8 +227,8 @@
           "url": "https://www.reddit.com/",
           "title": "Reddit - The heart of the internet"
         },
-        "12": {
-          "id": 12,
+        "15": {
+          "id": 15,
           "index": 6,
           "windowId": 1,
           "highlighted": false,
@@ -259,8 +259,8 @@
           "url": "https://www.artstation.com/?sort_by=community&dimension=all",
           "title": "ArtStation - All Channels"
         },
-        "13": {
-          "id": 13,
+        "16": {
+          "id": 16,
           "index": 7,
           "windowId": 1,
           "highlighted": false,
@@ -291,8 +291,8 @@
           "url": "https://www.tiktok.com/tiktokstudio/content",
           "title": "TikTok Studio"
         },
-        "14": {
-          "id": 14,
+        "17": {
+          "id": 17,
           "index": 8,
           "windowId": 1,
           "highlighted": false,
@@ -323,8 +323,8 @@
           "url": "https://www.tiktok.com/@kenzelkd",
           "title": "Kenzel (@kenzelkd) | TikTok"
         },
-        "15": {
-          "id": 15,
+        "18": {
+          "id": 18,
           "index": 9,
           "windowId": 1,
           "highlighted": false,
@@ -354,10 +354,10 @@
           "cookieStoreId": "firefox-default",
           "url": "https://app.publer.com/users/sign_in",
           "title": "Publer",
-          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAS1BMVEV4zMf///4AAAD6/f3r+vl4zMd7zcp5zMek3915zcj5/f3///3L7u16z8Z5zMfk9/eH1tH7/f3s+fl3y8Z/183S8fB5zMf6/Px5zMc0XTAJAAAAGXRSTlP//wDo4NpSs9eD8PrcG+3q4fjs9Rri9PT61pxpOAAAAK1JREFUeJytk+kSgyAMhKWtV+1dr/d/UoMgZA2iju6vyH6zk2RMclkRAUlEGoj5RMTt7SpUQAUDQr5SrItlwE5xDPhb4M166vVDRUU7bZI1pVW5AAA6nEoCPgKBlIqvIW5GY32n53QEFuYwAScBOZW/uf+gx9wCLuLq9bEBCKgX/gUSYMsEoKSPRgKlA3yE3g4EzAGI2ANkE8H9jAHB83Cntwmopf8EQGaw645rAIC8BIg9H5zxAAAAAElFTkSuQmCC"
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAS1BMVEV4zMf///4AAAD6/f3r+vl5zMd7zcp4zMek39x5zcj5/f3///3L7u16z8Z5zMfk9/eH1tH7/f3s+fl3y8Z/183S8fB5zMf6/Px5zMdwczgjAAAAGXRSTlP//wDo4LNS2teD8PrcG+3q4fjs9Rri9PT6HuykbAAAAK1JREFUeJytk+kSgyAMhKWtV+1dr/d/UoMgZA2iju6vyH6zk2RMclkRAUlEGoj5RMTt7SpUQAUDQr5SrItlwE5xDPhb4M166vVDRUU7bZI1pVW5AAA6nEoCPgKBnIqvIW5GY32n53wEFuYwAScBKZW/uf+gx9QCLuLq9bEBCKgX/gUSYMsEoKSPRgKlA3yE3g4EzAGI2ANkE8H9jAHB83Cntwmopf8EQGaw645rAILMBIjZt96VAAAAAElFTkSuQmCC"
         },
-        "16": {
-          "id": 16,
+        "19": {
+          "id": 19,
           "index": 10,
           "windowId": 1,
           "highlighted": false,
@@ -388,8 +388,8 @@
           "url": "https://login.buffer.com/login?messageCode=login-verification-error",
           "title": "Buffer - Log In"
         },
-        "17": {
-          "id": 17,
+        "20": {
+          "id": 20,
           "index": 11,
           "windowId": 1,
           "highlighted": false,
@@ -420,8 +420,8 @@
           "url": "https://www.instagram.com/direct/t/110095157050645/",
           "title": "Instagram • Messages"
         },
-        "18": {
-          "id": 18,
+        "21": {
+          "id": 21,
           "index": 12,
           "windowId": 1,
           "highlighted": false,
@@ -452,8 +452,8 @@
           "url": "https://bsky.app/profile/kenzelkd.bsky.social",
           "title": "Kenzel (@kenzelkd.bsky.social) — Bluesky"
         },
-        "19": {
-          "id": 19,
+        "22": {
+          "id": 22,
           "index": 13,
           "windowId": 1,
           "highlighted": false,
@@ -484,8 +484,8 @@
           "url": "https://bsky.app/search?q=game+developer+hiring",
           "title": "Explore — Bluesky"
         },
-        "20": {
-          "id": 20,
+        "23": {
+          "id": 23,
           "index": 14,
           "windowId": 1,
           "highlighted": false,
@@ -516,8 +516,8 @@
           "url": "https://bsky.app/profile/kenzelkd.bsky.social",
           "title": "Kenzel (@kenzelkd.bsky.social) — Bluesky"
         },
-        "21": {
-          "id": 21,
+        "24": {
+          "id": 24,
           "index": 15,
           "windowId": 1,
           "highlighted": false,
@@ -548,8 +548,8 @@
           "url": "https://x.com/search?q=game%20developer%20hiring%20since%3A2025-12-01&src=typed_query",
           "title": "game developer hiring since:2025-12-01 - Search / X"
         },
-        "22": {
-          "id": 22,
+        "25": {
+          "id": 25,
           "index": 16,
           "windowId": 1,
           "highlighted": false,
@@ -580,8 +580,8 @@
           "url": "https://x.com/kenzelkdsouza",
           "title": "Kenzel K. D'souza (@kenzelkdsouza) / X"
         },
-        "23": {
-          "id": 23,
+        "26": {
+          "id": 26,
           "index": 17,
           "windowId": 1,
           "highlighted": false,
@@ -612,8 +612,8 @@
           "url": "https://mastodon.social/home",
           "title": "Home - Mastodon"
         },
-        "24": {
-          "id": 24,
+        "27": {
+          "id": 27,
           "index": 18,
           "windowId": 1,
           "highlighted": false,
@@ -644,8 +644,8 @@
           "url": "https://mastodon.social/auth/sign_in",
           "title": "Log in - Mastodon"
         },
-        "25": {
-          "id": 25,
+        "28": {
+          "id": 28,
           "index": 19,
           "windowId": 1,
           "highlighted": false,
@@ -676,8 +676,8 @@
           "url": "https://mastodon.social/settings/profile",
           "title": "https://mastodon.social/settings/profile"
         },
-        "26": {
-          "id": 26,
+        "29": {
+          "id": 29,
           "index": 20,
           "windowId": 1,
           "highlighted": false,
@@ -708,8 +708,8 @@
           "url": "https://chatgpt.com/c/a02c6ff2-38ef-452c-a6d1-58f83c8e8f17",
           "title": "YouTube Titles"
         },
-        "27": {
-          "id": 27,
+        "30": {
+          "id": 30,
           "index": 21,
           "windowId": 1,
           "highlighted": false,
@@ -740,8 +740,8 @@
           "url": "https://chatgpt.com/c/8be8b919-717e-40ab-aa66-3974393d869a",
           "title": "Tiktok Titles"
         },
-        "28": {
-          "id": 28,
+        "31": {
+          "id": 31,
           "index": 22,
           "windowId": 1,
           "highlighted": false,
@@ -771,104 +771,6 @@
           "cookieStoreId": "firefox-default",
           "url": "https://export-youtube-playlist.vercel.app/",
           "title": "Export YouTube Playlist"
-        },
-        "29": {
-          "id": 29,
-          "index": 23,
-          "windowId": 1,
-          "highlighted": false,
-          "active": false,
-          "attention": false,
-          "pinned": false,
-          "status": "complete",
-          "hidden": false,
-          "discarded": true,
-          "incognito": false,
-          "width": 0,
-          "height": 0,
-          "lastAccessed": 1777375173884,
-          "audible": false,
-          "autoDiscardable": true,
-          "mutedInfo": {
-            "muted": false
-          },
-          "isInReaderMode": false,
-          "sharingState": {
-            "camera": false,
-            "microphone": false
-          },
-          "successorTabId": -1,
-          "groupId": -1,
-          "splitViewId": -1,
-          "cookieStoreId": "firefox-default",
-          "url": "https://mattw.io/youtube-metadata/",
-          "title": "MW Metadata"
-        },
-        "30": {
-          "id": 30,
-          "index": 24,
-          "windowId": 1,
-          "highlighted": false,
-          "active": false,
-          "attention": false,
-          "pinned": false,
-          "status": "complete",
-          "hidden": false,
-          "discarded": true,
-          "incognito": false,
-          "width": 0,
-          "height": 0,
-          "lastAccessed": 1777376886617,
-          "audible": false,
-          "autoDiscardable": true,
-          "mutedInfo": {
-            "muted": false
-          },
-          "isInReaderMode": false,
-          "sharingState": {
-            "camera": false,
-            "microphone": false
-          },
-          "successorTabId": -1,
-          "groupId": -1,
-          "splitViewId": -1,
-          "cookieStoreId": "firefox-default",
-          "url": "moz-extension://3f3f1c6f-a71d-4eff-a459-f8a2c3778efb/options/index.html#information",
-          "title": "Tab Session Manager",
-          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAwUlEQVRYR2M027TpPwMdwP///2tP+/u3oFvFSC8HgCwGOqIK6Ih2ZEfQ1QHYHEF3B6A7AsMBJ319UaLJfPNmolIIsj5kPeudnRnSjx5lePXjB4o5sOiguQNADnvy9StD5rFjWB1BFweAvI7LEXRzAMwRwfv2oUQFXR0Ashk9TQ0fB+DKKoRyFdVCgGYOIKoQIEERyWmABLOJUjrqgNEQGA2B0RAYDYHREBgNAYIhQFSdSkVFA9IzGtC+4YD2jrHFHABa9PW7DS5e7wAAAABJRU5ErkJggg=="
-        },
-        "31": {
-          "id": 31,
-          "index": 25,
-          "windowId": 1,
-          "highlighted": false,
-          "active": false,
-          "attention": false,
-          "pinned": false,
-          "status": "complete",
-          "hidden": false,
-          "discarded": true,
-          "incognito": false,
-          "width": 0,
-          "height": 0,
-          "lastAccessed": 1777376948429,
-          "audible": false,
-          "autoDiscardable": true,
-          "mutedInfo": {
-            "muted": false
-          },
-          "isInReaderMode": false,
-          "sharingState": {
-            "camera": false,
-            "microphone": false
-          },
-          "successorTabId": -1,
-          "groupId": -1,
-          "splitViewId": -1,
-          "cookieStoreId": "firefox-default",
-          "url": "https://github.com/sienori/Tab-Session-Manager",
-          "title": "GitHub - sienori/Tab-Session-Manager: WebExtensions for restoring and saving window / tab states · GitHub",
-          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD2ElEQVRYR7WXSWxNURzGvUQNrZiLREXVVEKCRsVCoiqmpIsikdIFC7WQCBILTVU1hJDoAotaiSkWWEhqihhCTBFDNOZSMzG1Ump+fl9zbnN7eu57T99zki/33v/w/b9z75luqF2MLRwOdyI0D8wGmaC3gRjeG9zleghUhUKhb7FQh6IFUbgvMevBAtA5Wrzxf+W6G5Qi5F2knEABFO5AYglYBdT7tjQJ2Sgg5LeLwCmA4r0IPgbGt6WqI+cMtnxE1Nu+VgIoPsIUH5ig4h7NQ26mIuKZn7eFAIr3x3kF6Po/mkRMQMQnj7xZAMW7YrwARvsqS8xpMBOM+UdFt32fMceXe5H7XG+W+AVsx7HUKlJI4D7ZECiSnWCIifnMtRZ8B0NBd2N/yrWIvJMmbzrX4xZvGf51sjUJgDyDyz2QZAWOJfCmZyNO01BrQK3/NRoOvcFB4Ak+iWtq5KTLZvE28JyhKeoJ2I+hwArS4ziCbjjsMZsQMIzg+46ECrhXhgjogvOjo/fKaf4EMVe0AuHX6nnEka+BmCoB87g54Ah4iy0TlXVtLW4+gT7bHaBPYbdJEqBBNt/hXEJxDbq4GzW0jO91EG2WAE21bMv5k+ceCPgSd3UIzEamN9nR4jsqAbUY7VXvBcUHJKK4x0EdzbLhFme1BGhKpFiOGgR48z0hOqhzFSJ7b6mXAL3mZKtKHQJ6JKSyIaFODbdab/ytQQK0SKQ7ivW0F5u2CjILmHZCe6F7LAFamyc6yOciQKebuBs1pkFywkF0XgIqcCx3OM8hYHLc1SGgxikuuQ6upmmYj+NwQKFliNgWjwj4i8ivDOCYJQGaAS9Bt4Cgtdg3BB2pgsTB2x5fMSgDrpPXB+xp3ma0lYcVhmwHV+2ApcBbC7TFqhe7EPI60huhcBr+hUA9j7SW6JxY7AlQkk4rOnxqK9X+cB1cAvbUqcKWR3LYFkLxg9jmRBJofDqsDobjjf9AUo5xjQnQIWMU0EaiWaId02szSHSNaA22LIKuxSBgNRybFOcXoGK3gE43anrdiyDVFNWpRk3bdiV2CWzVzJrfGEVANf4sOH60EKAHCLQnXAb9gAIKCAyaIc46cGgj0wB0tecYs/XqPafrWD4S51mQaoKkWOu4ktXKIfgT1EsEyOca9cqfQu4jf27Qj4k2Ip2GXaM4CZJfEQS0GpzEPgA55L2y8yL9mmkz0kBZbPUoUAC911rf9G1N09vQtC7xH1SjvgF/AKT6T9AaUQjUu+SgRYlYdUjbu4TsAVuI1TkgsEX9O/YyIe/DfQqE9hG7BTlx6RgaidOZMmr7C0DFXLisugYeAAAAAElFTkSuQmCC"
         }
       }
     },
@@ -885,15 +787,15 @@
         "type": "normal",
         "state": "maximized",
         "alwaysOnTop": false,
-        "title": "Troubleshooting Information — Mozilla Firefox"
+        "title": "MW Metadata — Mozilla Firefox"
       }
     },
-    "tabsNumber": 27,
+    "tabsNumber": 24,
     "name": "Socials Window",
-    "date": 1777377978311,
-    "lastEditedTime": 1777377978311,
+    "date": 1779218078285,
+    "lastEditedTime": 1779218078312,
     "tag": [],
-    "sessionStartTime": 1777377901970,
+    "sessionStartTime": 1779218078286,
     "id": "5b065dcd-924e-4d22-a9e9-1eb7aed887d8"
   }
 ]
