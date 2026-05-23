@@ -1,0 +1,297 @@
+[
+  {
+    "windows": {
+      "2667": {
+        "30": {
+          "id": 30,
+          "index": 0,
+          "windowId": 2667,
+          "highlighted": true,
+          "active": true,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": false,
+          "incognito": false,
+          "width": 1489,
+          "height": 830,
+          "lastAccessed": 1779541755589,
+          "audible": false,
+          "autoDiscardable": true,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "groupId": 1774592455355020,
+          "splitViewId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://www.youtube.com/watch?v=4CBbEi3I65U",
+          "title": "(1) Fuzzy Christmas Tree in Blender - YouTube",
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAVFBMVEXXJTIAAAD/////KiraJDLYJTLXJTLWJDHYJDHZPErXJzD78PPon63aJCTYJDP21tvbUWXiJTjhannXJTHnLkXrrrrZRlrXJzfYJjHYJDPeJTPXKzrzc1VSAAAAHHRSTlP/AP8GN8vp8Ob/Ov//B7j//xv/xwv///9IwTf/MfadiQAAAHhJREFUeJzN07cOwCAQA1DnIL339v//maYMkYhvxRv4IRgOBEp8ATaEM6G9gXG3T8wJWI+zbjkYsHJQIeIg+S5TrgHJNSAyakCk0YDIroGOg1q5YuaPnFgNFI69mB+J8TMsb3osHFh9YIKN9dk1tOZ3JKLSn59FcwCFzwM560t9rQAAAABJRU5ErkJggg=="
+        },
+        "31": {
+          "id": 31,
+          "index": 1,
+          "windowId": 2667,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": true,
+          "incognito": false,
+          "width": 0,
+          "height": 0,
+          "lastAccessed": 1774592455131,
+          "audible": false,
+          "autoDiscardable": true,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "groupId": 1774592455355020,
+          "splitViewId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://www.youtube.com/results?search_query=blender+curve+info+node",
+          "title": "blender curve info node - YouTube"
+        },
+        "32": {
+          "id": 32,
+          "index": 2,
+          "windowId": 2667,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": true,
+          "incognito": false,
+          "width": 0,
+          "height": 0,
+          "lastAccessed": 1774592455136,
+          "audible": false,
+          "autoDiscardable": true,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "groupId": 1774592455355020,
+          "splitViewId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://www.youtube.com/watch?v=LS7nsFNCRfY",
+          "title": "Transfer Attributes in Blender 3.4 - Geometry Nodes - YouTube"
+        },
+        "33": {
+          "id": 33,
+          "index": 3,
+          "windowId": 2667,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": true,
+          "incognito": false,
+          "width": 0,
+          "height": 0,
+          "lastAccessed": 1774592455145,
+          "audible": false,
+          "autoDiscardable": true,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "groupId": 1774592455355020,
+          "splitViewId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://www.youtube.com/watch?v=nXCSMO4iioA&t=129s",
+          "title": "This node is just INCREDIBLE - Blender - YouTube"
+        },
+        "34": {
+          "id": 34,
+          "index": 4,
+          "windowId": 2667,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": true,
+          "incognito": false,
+          "width": 0,
+          "height": 0,
+          "lastAccessed": 1774592455153,
+          "audible": false,
+          "autoDiscardable": true,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "groupId": 1774592455355020,
+          "splitViewId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://www.youtube.com/watch?v=nlAA3ZTgM6s",
+          "title": "Turn ANY object into a tree with Blender! - YouTube"
+        },
+        "35": {
+          "id": 35,
+          "index": 5,
+          "windowId": 2667,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": true,
+          "incognito": false,
+          "width": 0,
+          "height": 0,
+          "lastAccessed": 1774592455158,
+          "audible": false,
+          "autoDiscardable": true,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "groupId": 1774592455355020,
+          "splitViewId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://duckduckgo.com/?q=christmas+geometry+node+2024&kp=1&t=ffab&ia=web",
+          "title": "christmas geometry node 2024 at DuckDuckGo"
+        },
+        "36": {
+          "id": 36,
+          "index": 6,
+          "windowId": 2667,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": true,
+          "incognito": false,
+          "width": 0,
+          "height": 0,
+          "lastAccessed": 1774592455170,
+          "audible": false,
+          "autoDiscardable": true,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "groupId": 1774592455355020,
+          "splitViewId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://sketchfab.com/3d-models/godzilla-01b0d48490d24e2d868f96660e4be671",
+          "title": "Godzilla - Download Free 3D model by ArachnoBoy (@vang807) [01b0d48]"
+        },
+        "37": {
+          "id": 37,
+          "index": 7,
+          "windowId": 2667,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": true,
+          "incognito": false,
+          "width": 0,
+          "height": 0,
+          "lastAccessed": 1774592455172,
+          "audible": false,
+          "autoDiscardable": true,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "groupId": 1774592455355020,
+          "splitViewId": -1,
+          "cookieStoreId": "firefox-container-7",
+          "url": "https://www.youtube.com/watch?v=w9LOxkoX-yY",
+          "title": "Geometry nodes: UV map in curve objects - YouTube"
+        }
+      }
+    },
+    "windowsNumber": 1,
+    "windowsInfo": {
+      "2667": {
+        "id": 2667,
+        "focused": true,
+        "top": -7,
+        "left": -7,
+        "width": 1550,
+        "height": 878,
+        "incognito": false,
+        "type": "normal",
+        "state": "maximized",
+        "alwaysOnTop": false,
+        "title": "(1) Fuzzy Christmas Tree in Blender - YouTube — Mozilla Firefox"
+      }
+    },
+    "tabsNumber": 8,
+    "name": "Godzilla Tree",
+    "date": 1779541755586,
+    "lastEditedTime": 1779541755586,
+    "tag": [],
+    "sessionStartTime": 1779541755588,
+    "id": "920c3ddc-ca48-4601-80f6-6a409097b2ab",
+    "tabGroups": [
+      {
+        "collapsed": false,
+        "color": "orange",
+        "id": 1774592455355020,
+        "title": "Godzilla Tree",
+        "windowId": 2667
+      }
+    ]
+  }
+]
