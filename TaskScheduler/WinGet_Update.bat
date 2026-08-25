@@ -1,2 +1,2 @@
-winget upgrade --all --accept-package-agreements --accept-source-agreements
+winget upgrade --all --include-unknown --accept-package-agreements --accept-source-agreements
 pause

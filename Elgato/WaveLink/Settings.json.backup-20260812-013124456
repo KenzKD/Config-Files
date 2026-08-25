@@ -1,0 +1,397 @@
+{
+  "Update": {
+    "LastUpdateVersion": "3.2.10.4073"
+  },
+  "General": {
+    "IsEulaAccepted": true,
+    "UserId": "S-1-5-21-433842420-860419620-3014498603-1001",
+    "IsFirstAppStart": false,
+    "SortedInputList": [
+      "PCM_OUT_00_V_04_SD3",
+      "{0.0.1.00000000}.{3b5216ed-6fdd-4871-a754-d00237c47e59}"
+    ],
+    "SortedMixList": [
+      "PCM_IN_01_V_00_SD1",
+      "PCM_IN_01_V_02_SD2"
+    ],
+    "WasMixerOnboardingShown": true,
+    "InformOnNewPlugins": false,
+    "DataMasterEventPersistence": "[{\u0022event\u0022:\u0022$session_end\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u0022166CA377-F3AE-4215-A27E-13D5B0CD1397\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786355507922,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022session_duration_ms\u0022:31,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_start\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u0022A5B62D32-A1F5-441F-8232-DEE0E1EC95A5\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786386667768,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_end\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u00222AD560FE-1897-46BA-BE53-F52C04E8F0AB\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786386667777,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022session_duration_ms\u0022:9,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_start\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u0022BC681720-2B61-441D-BBDD-899EB3D4C16D\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786429871042,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_end\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u00225F1242BB-CDD3-47B9-8000-959E96599911\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786429871054,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022session_duration_ms\u0022:11,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_start\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u0022931283DA-0C73-4BA9-931A-459B9BAC1280\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786473062987,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_end\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u002280A4A152-5E68-4675-A1A9-31DC670F3B82\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786473063007,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022session_duration_ms\u0022:19,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_start\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u002261D2EB0A-2067-4802-8BAC-52958FF7019B\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786483382238,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_end\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u00228832FF82-7BEA-4D20-BD5B-E86CD9933870\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786483382267,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022session_duration_ms\u0022:28,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_start\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u00227EEA5CF8-2F5C-47FD-A457-3AEF43758A6D\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786483793953,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}},{\u0022event\u0022:\u0022$session_start\u0022,\u0022properties\u0022:{\u0022$app_version_string\u0022:\u00223.2.10\u0022,\u0022$device_id\u0022:\u0022903A2A98-9B7C-466D-A0AF-E1E028957809\u0022,\u0022$insert_id\u0022:\u002203FE3EC0-7606-4725-8239-9757E3F63D42\u0022,\u0022$manufacturer\u0022:\u0022LENOVO\u0022,\u0022$model\u0022:\u0022DESKTOP-95NE8C2\u0022,\u0022$os\u0022:\u0022Windows\u0022,\u0022$os_version\u0022:\u0022Microsoft Windows 11 Home [10.0.26200]\u0022,\u0022$screen_height\u0022:1080,\u0022$screen_width\u0022:1920,\u0022$time\u0022:1786483820273,\u0022$user_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022app_build_number\u0022:4073,\u0022application_name\u0022:\u0022Elgato Wave Link\u0022,\u0022cpu_architecture\u0022:\u0022x64\u0022,\u0022cpu_core_count\u0022:8,\u0022distinct_id\u0022:\u0022S-1-5-21-433842420-860419620-3014498603-1001\u0022,\u0022locale\u0022:\u0022en_US\u0022,\u0022mp_country_code\u0022:\u0022AE\u0022,\u0022num_screens\u0022:2,\u0022os_build\u0022:\u002211 Home\u0022,\u0022os_version_major\u0022:10,\u0022os_version_minor\u0022:0,\u0022os_version_patch\u0022:26200,\u0022package\u0022:\u0022com.elgato.wavelink3-windows\u0022,\u0022primary_graphics_card_name\u0022:\u0022Intel(R) UHD Graphics\u0022,\u0022processor_name\u0022:\u0022Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz\u0022,\u0022ram_capacity\u0022:32602,\u0022release_channel\u0022:\u0022stable\u0022,\u0022system_type\u0022:\u0022Mobile\u0022,\u0022timezone\u0022:\u0022Arabian Standard Time\u0022,\u0022update_track_path\u0022:\u0022stable\u0022}}]",
+    "LogLevel": "Information"
+  },
+  "Blacklist": {
+    "Software": {
+      "ExecutableNames": [],
+      "DisplayNames": [],
+      "DisplayNamePatterns": [
+        {
+          "Pattern": "Wave\\s*Link",
+          "Options": "None"
+        },
+        {
+          "Pattern": "Outlook",
+          "Options": "None"
+        },
+        {
+          "Pattern": "Microsoft Windows Operating System",
+          "Options": "None"
+        },
+        {
+          "Pattern": "Microsoft\u00AE Windows\u00AE Operating System",
+          "Options": "None"
+        },
+        {
+          "Pattern": "Spotify\\s*Widget\\s*Provider",
+          "Options": "None"
+        },
+        {
+          "Pattern": "taskhostw",
+          "Options": "None"
+        },
+        {
+          "Pattern": "audiodg",
+          "Options": "None"
+        }
+      ],
+      "DirectoryPathPatterns": []
+    }
+  },
+  "Icons": {
+    "InputIcons": {
+      "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}": "90513f6c-0b79-4ac8-ae10-78246d25b348",
+      "{0.0.1.00000000}.{fd907396-621b-470e-bee5-ab34a4d41340}": "90513f6c-0b79-4ac8-ae10-78246d25b348",
+      "PCM_OUT_00_V_04_SD3": "8b707a76-8a51-49c4-a48d-6b1a265417d2",
+      "{0.0.1.00000000}.{80b99362-d4e9-4fb0-93a4-1fbbfbaad661}": "90513f6c-0b79-4ac8-ae10-78246d25b348",
+      "{0.0.1.00000000}.{14c209e5-9998-4dad-a1a1-0fc9829edea0}": "90513f6c-0b79-4ac8-ae10-78246d25b348",
+      "{0.0.1.00000000}.{3b5216ed-6fdd-4871-a754-d00237c47e59}": "90513f6c-0b79-4ac8-ae10-78246d25b348"
+    },
+    "MixIcons": {}
+  },
+  "Suggestions": {
+    "Software": {
+      "ExecutableNames": [],
+      "DisplayNames": [
+        "Wave Cast",
+        "Stream Deck",
+        "Spotify",
+        "Deezer",
+        "Apple Music",
+        "Tidal",
+        "Google Chrome",
+        "Firefox",
+        "Microsoft Edge",
+        "Safari",
+        "Opera",
+        "Brave",
+        "Discord",
+        "Slack",
+        "Microsoft Teams",
+        "Zoom",
+        "TeamSpeak",
+        "VLC media player",
+        "Windows Media Player",
+        "KMPlayer",
+        "PotPlayer",
+        "QuickTime Player",
+        "Jellyfin Media Player",
+        "Escape from Tarkov",
+        "ARC Raiders",
+        "League of Legends",
+        "Minecraft",
+        "Counter Strike 2",
+        "GTA 5",
+        "Dota 2",
+        "Valorant",
+        "Fortnite",
+        "OBS",
+        "Streamlabs",
+        "Meld"
+      ],
+      "DisplayNamePatterns": [],
+      "DirectoryPathPatterns": []
+    },
+    "Hardware": {
+      "ExecutableNames": [],
+      "DisplayNames": [
+        "Virtuoso RGB Wireless XT",
+        "Virtuoso Pro",
+        "Virtuoso Max",
+        "HS80 RGB Wireless",
+        "HS80 Max Wireless",
+        "HS70 Pro Wireless",
+        "HS65 Wireless",
+        "HS65 Surround",
+        "HS60 Pro",
+        "HS50 Pro",
+        "HS35",
+        "VOID RGB Elite Wireless",
+        "VOID Elite Wireless",
+        "Corsair Spark Headset"
+      ],
+      "DisplayNamePatterns": [
+        {
+          "Pattern": "\\bElgato\\b",
+          "Options": "IgnoreCase"
+        }
+      ],
+      "DirectoryPathPatterns": []
+    }
+  },
+  "MixerConfiguration": {
+    "MixSettings": {
+      "PCM_IN_01_V_00_SD1": {
+        "Id": "PCM_IN_01_V_00_SD1",
+        "DeviceId": "{0.0.1.00000000}.{fe215a6e-f7f7-4ded-8aff-eaa80e270cf7}",
+        "Name": "Personal Mix",
+        "Volume": 1,
+        "IsMuted": false,
+        "OutputDevices": [
+          {
+            "Id": "{0.0.0.00000000}.{dfe3bdfd-b585-4e21-ba66-cdc1cc142f0f}",
+            "WaveLinkDeviceId": "{2}.\\\\?\\intelaudio#func_01\u0026ven_10ec\u0026dev_0287\u0026subsys_17aa3813\u0026rev_1000#5\u00262ece87f9\u00260\u00260001#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\rearlineoutwavesst_8975",
+            "Name": "Speakers",
+            "DeviceType": "HardwareOutputDevice",
+            "FriendlyName": "Speakers (Realtek(R) Audio)",
+            "Volume": 0.5401005,
+            "IsMuted": false,
+            "AudioDeviceInfo": {
+              "Id": "{2}.\\\\?\\intelaudio#func_01\u0026ven_10ec\u0026dev_0287\u0026subsys_17aa3813\u0026rev_1000#5\u00262ece87f9\u00260\u00260001#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\rearlineoutwavesst_8975",
+              "Name": "Speakers"
+            },
+            "ContainerId": "00000000-0000-0000-ffff-ffffffffffff"
+          }
+        ]
+      },
+      "PCM_IN_01_V_02_SD2": {
+        "Id": "PCM_IN_01_V_02_SD2",
+        "DeviceId": "{0.0.1.00000000}.{5ef1414f-9c2a-469e-8f96-bb81d98de27c}",
+        "Name": "Chat Mix",
+        "Volume": 1,
+        "IsMuted": false,
+        "OutputDevices": []
+      }
+    },
+    "InputSettings": {
+      "PCM_OUT_00_V_04_SD3": {
+        "InputName": "System",
+        "MixerIds": [
+          "PCM_IN_01_V_00_SD1"
+        ],
+        "VolumeForMix": {
+          "PCM_IN_01_V_00_SD1": 1
+        },
+        "MuteForMix": {
+          "PCM_IN_01_V_00_SD1": false
+        },
+        "WaveDeviceType": "NoWaveDevice",
+        "DeviceSettings": {
+          "DeviceId": "{0.0.0.00000000}.{29697f55-4686-490c-b0ba-586df91f68a1}",
+          "DeviceName": "System",
+          "DeviceSerialKey": "",
+          "DeviceType": "WaveSoftwareInputDevice",
+          "ContainerId": "6eb7d0d6-4ed7-11f1-a9ea-34cff68a6de8"
+        },
+        "PipelineDeviceInternalId": "PCM_OUT_00_V_04_SD3",
+        "AudioPluginConfigurations": [],
+        "AudioAppConfigurations": [],
+        "SampleRecorderOutputDeviceId": null,
+        "MasterVolume": 0.6,
+        "MasterMute": false,
+        "IsHiddenFromMixes": false
+      },
+      "{0.0.1.00000000}.{3b5216ed-6fdd-4871-a754-d00237c47e59}": {
+        "InputName": "Microphone (DJI MIC MINI)",
+        "MixerIds": [
+          "PCM_IN_01_V_00_SD1",
+          "PCM_IN_01_V_02_SD2"
+        ],
+        "VolumeForMix": {
+          "PCM_IN_01_V_00_SD1": 1,
+          "PCM_IN_01_V_02_SD2": 1
+        },
+        "MuteForMix": {
+          "PCM_IN_01_V_00_SD1": true,
+          "PCM_IN_01_V_02_SD2": false
+        },
+        "WaveDeviceType": "NoWaveDevice",
+        "DeviceSettings": {
+          "DeviceId": "{0.0.1.00000000}.{3b5216ed-6fdd-4871-a754-d00237c47e59}",
+          "DeviceName": "Microphone",
+          "DeviceSerialKey": "",
+          "DeviceType": "HardwareInputDevice",
+          "ContainerId": "f2de6ca7-428e-5c00-885b-ff7f851c6be8"
+        },
+        "PipelineDeviceInternalId": "PCM_OUT_00_V_14_SD8",
+        "AudioPluginConfigurations": [
+          {
+            "Id": "9eacd137-2ed5-4e79-a58a-538820a891cd",
+            "Name": "Elgato Noise Removal",
+            "PluginId": "f4a9d925",
+            "Category": "Fx",
+            "Vendor": "Elgato",
+            "FilePath": "C:\\Program Files\\Common Files\\VST3\\Elgato\\ElgatoNoiseRemoval.vst3",
+            "ParameterState": "VkMyIY8BAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiA8VlNUM1BsdWdpblN0YXRlPjxJQ29tcG9uZW50PjIyMi5WTWpMZ1hLLi4uLk8rZldhckFoY2tJMmJvOGxhOEhSTHQuaUhmVGxhaThGWW80MVk4SFJVVFlUSzNIeE85LkJPUjRqU1Y4VlppVUZUZ0lXWHNNbU83LlVQUkVUU2ZqRlk4SGhVQVFESFJVRmFrRTFia0lCSDFFRmEwVVZPaEhTTXYzQkxoN2hPNy5VUFJFVFNmakZZOEhoVUFRREhUZ2xia01HWnV3RlloLmhjZ3dWY2swaUh2M0JMaDdoTzcuVVBSRVRTZmpGWThIaFg0QVdYeU1tSGZYV1hyVVdZOEhSTHQuaUh1M0NPdUhrU05ZMGFvTVZZUEVsYmcwMWI5Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi5KVTBQRUFrYm9ZV1h6VUZRZ1FXWDwvSUNvbXBvbmVudD48L1ZTVDNQbHVnaW5TdGF0ZT4A",
+            "BypassState": false,
+            "CustomName": null
+          },
+          {
+            "Id": "de0fff89-d72a-462e-b23d-01e6ac279a81",
+            "Name": "ReaGate (ReaPlugs Edition)",
+            "PluginId": "72656774",
+            "Category": "Effect",
+            "Vendor": "Cockos",
+            "FilePath": "C:\\Program Files\\Common Files\\VST2\\VSTPlugins\\reagate-standalone.dll",
+            "ParameterState": "Q2NuSwAAAABGeEJrAAAAAXJlZ3QAAARMAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ2NuSwAAAABGeENrAAAAAXJlZ3QAAARMAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9AYbiO8Sbpjyj1woAAAAAAAAAAD\u002BAAAAAAAAAAAAAAAAAAAAzB9GcP4AAADMH0Zw/gAAAAAAAAAAAAAAAAAAAPwsWLAAAAAAAAAAA",
+            "BypassState": false,
+            "CustomName": null
+          },
+          {
+            "Id": "a5c997c6-8847-40a8-956c-4388bf0b45d2",
+            "Name": "Elgato EQ",
+            "PluginId": "ef66d422",
+            "Category": "Fx",
+            "Vendor": "Elgato",
+            "FilePath": "C:\\Program Files\\Common Files\\VST3\\Elgato\\ElgatoEq.vst3",
+            "ParameterState": "VkMyIRIOAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiA8VlNUM1BsdWdpblN0YXRlPjxJQ29tcG9uZW50PjI2MjMuVk1qTGduZUIuLi5PK2ZXYXJBaGNrSTJibzhsYThIUkx0LmlIZlRsYWk4RllvNDFZOEhSVVRZVEszSHhPOS5CT1dnMWFyVTFUekVGY2s0Q09QSVdZeVVGY2ZEelh6a2xja0FrYmtNV1l6MGlIekh4Szl2Q1RnSVdYc1VGY2tJMmI5dkNUQUlVUE1BUlpqMGlIQkVsYWpBUkxmWFRaclFXWXhBaFA0QVdYeU1tSGZYV1hyVVdZOEhCTHQuaUh1M0NPUEVqVEEwREhvUVZPaEhUWHRRRkh3LmhRb3dGY2tJR0hGSVdZd1VXWXRNVmRoLmhjZ3dWY2swaUgwVGlLNC5DTHYuU0wwSFNNM2JDTjREaUh1M0NPUEVqVEEwREhvUVZPaEhUWHRRRkh3LmhRb3dGY2tJR0hHRVZadElCSDFFRmEwVVZPaERpS3ZIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBUkxmWFRaclFXWXhBUlQwRUZhb1FXZGguaGNnd1ZjazBpSHYzeE13LkNMdi5DTHlmU0x6WFNOMkh5TWg3aE83LlVQUkVUU2ZqRlk4SGhQZzRGWWZEQ0hGa0ZhelVsYmZQVWR2VWxIZlhXWHJVV1k4SEJMdC5pSHUzQ09QRWpUQTBESG9RVk9oSFRYdFFGSHcuaFFvd0Zja0lHSFZrMWJvSUZha0lCSDFFRmEwVVZPaERpS3ZIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBaExmWFRaclFXWXhBaFA0QVdYeU1tSGZYV1hyVVdZOEhCTHQuaUh1M0NPUEVqVEEwREhvUVZPaEhUWHRRRkh4LmhRb3dGY2tJR0hGSVdZd1VXWXRNVmRoLmhjZ3dWY2swaUh3UENNdFhDTHYuQ0wxRENMeVRTTDBYaUh1M0NPUEVqVEEwREhvUVZPaEhUWHRRRkh4LmhRb3dGY2tJR0hHRVZadElCSDFFRmEwVVZPaERpS3piQ0x2LkNMdkhDTjFEQ0x4SFNOaDdoTzcuVVBSRVRTZmpGWThIaFBnNEZZZkhDSEZrRmF6VWxiZkRVY2d3Vlp6a21IZlhXWHJVV1k4SFJMdC5pSHUzQ09QRWpUQTBESG9RVk9oSFRYdFFGSHguaFFvd0Zja0lHSFRrR2JrSUJIMUVGYTBVVk9oSGlLdkh4Szl2Q1RBSVVQTUFSWmowaUhCRWxhakFoTGZYVFpyUVdZeEFoVW9NV1pod1ZZaC5oY2d3VmNrMGlIdzNCTGg3aE83LlVQUkVUU2ZqRlk4SGhQZzRGWWZMQ0hGa0ZhelVsYmZIVGR2RTFieUlCSDFFRmEwVVZPaC5pS3ZIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBeExmWFRaclFXWXhBaFF4VVZiMFVsYWlrbUhmWFdYclVXWThIeEx6VGlLMi5DTHZEaUx4LnlNdkxTTHhIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBeExmWFRaclFXWXhBeFFna2xhaC5oY2d3VmNrMGlIdjNSTWg3aE83LlVQUkVUU2ZqRlk4SGhQZzRGWWZMQ0hGa0ZhelVsYmZEVWNnd1ZaemttSGZYV1hyVVdZOEhSTHQuQ0w0alNONGpTTnZQaU15SFNNMkh4Szl2Q1RBSVVQTUFSWmowaUhCRWxhakF4TGZYVFpyUVdZeEFCVTRBV1loLmhjZ3dWY2swaUh4M0JMaDdoTzcuVVBSRVRTZmpGWThIaFBnNEZZZkxDSEZrRmF6VWxiZlhVWnlrbFhyVWxIZlhXWHJVV1k4SFJMdC5pSHUzQ09QRWpUQTBESG9RVk9oSFRYdFFGSHouaFFvd0Zja0lHSEJrR2JnTTJiaC5oY2d3VmNrMGlIdjNCTGg3aE83LlVQUkVUU2ZqRlk4SGhQZzRGWWZQQ0hGa0ZhelVsYmZYamJrRVdjazQxWDRJQkgxRUZhMFVWT2hQaU12SGlLeS5DTHhqaUw0WENOMlRpSHUzQ09QRWpUQTBESG9RVk9oSFRYdFFGSHouaFFvd0Zja0lHSEdFVlp0SUJIMUVGYTBVVk9oRGlLd1RTTjRqU040WGlNMUhTTHlqU05oN2hPNy5VUFJFVFNmakZZOEhoUGc0RllmUENIRmtGYXpVbGJmRFVjZ3dWWnprbUhmWFdYclVXWThIQkx0WFNONGpTTjRqQ04zLnlNNC55TXdIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBQk1mWFRaclFXWXhBQlU0QVdZaC5oY2d3VmNrMGlIeTNCTGg3aE83LlVQUkVUU2ZqRlk4SGhQZzRGWWZQQ0hGa0ZhelVsYmZYVVp5a2xYclVsSGZYV1hyVVdZOEhSTHQuaUh1M0NPUEVqVEEwREhvUVZPaEhUWHRRRkgwLmhRb3dGY2tJR0hCa0diZ00yYmguaGNnd1ZjazBpSHYzQkxoN2hPNy5VUFJFVFNmakZZOEhoUGc0RllmVENIRmtGYXpVbGJmWGpia0VXY2s0MVg0SUJIMUVGYTBVVk9oYnlNdjNCTGg3aE83LlVQUkVUU2ZqRlk4SGhQZzRGWWZUQ0hGa0ZhelVsYmZiVFhvNGxIZlhXWHJVV1k4SFJMdC5pSHUzQ09QRWpUQTBESG9RVk9oSFRYdFFGSDAuaFFvd0Zja0lHSFFVV1hya0ZjNElCSDFFRmEwVVZPaERpS3ZIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBUk1mWFRaclFXWXhBQlU0QVdZaC5oY2d3VmNrMGlIeDNCTGg3aE83LlVQUkVUU2ZqRlk4SGhQZzRGWWZUQ0hGa0ZhelVsYmZYVVp5a2xYclVsSGZYV1hyVVdZOEhCTHQuaUh1M0NPUEVqVEEwREhvUVZPaEhUWHRRRkgxLmhRb3dGY2tJR0hCa0diZ00yYmguaGNnd1ZjazBpSHYzQkxoN2hPNy5VUFJFVFNmakZZOEhoUGc0RllmWENIRmtGYXpVbGJmWGpia0VXY2s0MVg0SUJIMUVGYTBVVk9oSENMdC5pSHUzQ09QRWpUQTBESG9RVk9oSFRYdFFGSDEuaFFvd0Zja0lHSEdFVlp0SUJIMUVGYTBVVk9oRGlLdkh4Szl2Q1RBSVVQTUFSWmowaUhCRWxhakFoTWZYVFpyUVdZeEFSVDBFRmFvUVdkaC5oY2d3VmNrMGlIdjN4TXcuQ0x2LkNMeWZTTHpYU04ySHlNaDdoTzcuVVBSRVRTZmpGWThIaFBnNEZZZlhDSEZrRmF6VWxiZlBVZHZVbEhmWFdYclVXWThIaEx0LmlIdTNDT1BFalRBMERIb1FWT2hIVFh0UUZIMS5oUW93RmNrSUdIVmsxYm9JRmFrSUJIMUVGYTBVVk9oLmlLdkh4Szl2Q1RBSVVQTUFSWmowaUhCRWxhakF4TWZYVFpyUVdZeEFoUDRBV1h5TW1IZlhXWHJVV1k4SEJMdC5pSHUzQ09QRWpUQTBESG9RVk9oSFRYdFFGSDIuaFFvd0Zja0lHSEZJV1l3VVdZdE1WZGguaGNnd1ZjazBpSHguaUt2SHhLOXZDVEFJVVBNQVJaajBpSEJFbGFqQXhNZlhUWnJRV1l4QXhRZ2tsYWguaGNnd1ZjazBpSHczQkxoN2hPNy5VUFJFVFNmakZZOEhoUGc0RllmYkNIRmtGYXpVbGJmRFVjZ3dWWnprbUhmWFdYclVXWThIQkx0YlNMdi5DTHYueUwzRENNMWp5TXhiaUh1M0NPUEVqVEEwREhvUVZPaEhUWHRRRkgyLmhRb3dGY2tJR0hUa0dia0lCSDFFRmEwVVZPaEhpS3ZIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBeE1mWFRaclFXWXhBaFVvTVdaaHdWWWguaGNnd1ZjazBpSHYzQkxoN2hPNy5VUFJFVFNmakZZOEhoUGc0RllmZkNIRmtGYXpVbGJmSFRkdkUxYnlJQkgxRUZhMFVWT2guaUt2SHhLOXZDVEFJVVBNQVJaajBpSEJFbGFqQUJOZlhUWnJRV1l4QWhReFVWYjBVbGFpa21IZlhXWHJVV1k4SHhNMi5pS3ZIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBQk5mWFRaclFXWXhBeFFna2xhaC5oY2d3VmNrMGlIdzNCTGg3aE83LlVQUkVUU2ZqRlk4SGhQZzRGWWZmQ0hGa0ZhelVsYmZEVWNnd1ZaemttSGZYV1hyVVdZOEhSTHQuaUh1M0NPUEVqVEEwREhvUVZPaEhUWHRRRkgzLmhRb3dGY2tJR0hUa0dia0lCSDFFRmEwVVZPaEhpS3ZIeEs5dkNUQUlVUE1BUlpqMGlIQkVsYWpBQk5mWFRaclFXWXhBaFVvTVdaaHdWWWguaGNnd1ZjazBpSHYzQkxoN2hPNzdCVGdJV1hzVUZja0kyYjl2Q1R1QVdVdkFCUXU0RmNTZzFhMkV6WWdrbGE4SEJMaDdoTzdURFlvUTJheEF4Ym9vV1lzZldPaGZDTnZIQkh5a2xkazBSZDhIUk0xLmlIdTNDT3ViRVp1d1ZZU1FXWHpVbE8uLi4uLi4uLi4uLi5KVTBQRUFrYm9ZV1h6VUZRZ1FXWC5EUC5Ca0diZ00yYi5EUC5CLlBHLi4uLi4uLi4ublRVQ1VEVHhrbGNnUVdZREVGY2dBPC9JQ29tcG9uZW50PjwvVlNUM1BsdWdpblN0YXRlPgA=",
+            "BypassState": false,
+            "CustomName": null
+          },
+          {
+            "Id": "40cba1c8-c9ea-45d8-bd77-a4e8c2166f7a",
+            "Name": "Elgato Compressor",
+            "PluginId": "f664ec1f",
+            "Category": "Fx",
+            "Vendor": "Elgato",
+            "FilePath": "C:\\Program Files\\Common Files\\VST3\\Elgato\\ElgatoCompressor.vst3",
+            "ParameterState": "VkMyIckCAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiA8VlNUM1BsdWdpblN0YXRlPjxJQ29tcG9uZW50PjQ1Ny5WTWpMZ1BYLi4uLk8rZldhckFoY2tJMmJvOGxhOEhSTHQuaUhmVGxhaThGWW80MVk4SFJVVFlUSzNIeE85LkJPaThWYXZJV1l5TTJheEFVWHhFVmF5NENPUEVqVEEwREhvUVZPaERGY3pFMVhxSUJIMUVGYTBVVk9oSENMdC5DTHYuQ0wyWGlMNExTTnpUeUxoN2hPNy5VUFJFVFNmakZZOEhSWDBRMmFzRTFaa1VHYmguaGNnd1ZjazBpSHczQkxoN2hPNy5VUFJFVFNmakZZOEhoWDRBV1h5TW1IZlhXWHJVV1k4SEJMdC5pSHUzQ09QRWpUQTBESG9RVk9oYlZYbzRsSGZYV1hyVVdZOEhSTHQuaUh1M0NPUEVqVEEwREhvUVZPaEhXWHprMWFoLmhjZ3dWY2swaUh6M0JMaDdoTzcuVVBSRVRTZmpGWThIaGJrd1ZZZ01XWWguaGNnd1ZjazBpSHdQU050alNONGpDTnpiQ013SFNMdmppSHUzQ09QRWpUQTBESG9RVk9oUEdaeFUxYm44RmFqSUJIMUVGYTBVVk9oemhMeTNoTTMuQ0x2LnlMdlRTTDJUeU0zSHhLOXZTWWprRmN1STJUa1FHY280MVl5QXhibjhWY3JRRlN1RUZZVFVHY3VJV1pnd1ZPaC5pSHUzQ091TDFhc0FtYmtNMmJ1SUdUZ0lXWHNNbU8uLi4uLi4uLi4uLi5KVTBQRUFrYm9ZV1h6VUZRZ1FXWC5EUC5Ca0diZ00yYi5EUC5CLlBHLi4uLi4uLi4ublRVQ1VEVHhrbGNnUVdZREVGY2dBPC9JQ29tcG9uZW50PjwvVlNUM1BsdWdpblN0YXRlPgA=",
+            "BypassState": false,
+            "CustomName": null
+          },
+          {
+            "Id": "cc5f52e5-a937-4d0b-8767-c90a8d67ef7b",
+            "Name": "Wave Breaker",
+            "PluginId": "9c2eefaa",
+            "Category": "Dynamics",
+            "Vendor": "Press Play",
+            "FilePath": "C:\\Program Files\\Common Files\\VST3\\WaveBreaker.vst3\\Contents\\x86_64-win\\WaveBreaker.vst3",
+            "ParameterState": "VkMyIXsCAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiA8VlNUM1BsdWdpblN0YXRlPjxJQ29tcG9uZW50PjM3MS5EcFpYMFEyYXNFRmNvOGxhSXQ1UFhvU1l0WVdZcjhGYmtzTC4uLi4uLi4uLi5iNVBYb3ladFVWWUtDREIuLi4uLi4uLnJORGF3bkNieFUxYmtJbWNrc0xQSUEuLi4uLi4udjVQckVpTnlFRmMwSVdYelUxeC4uLi4uLi4uLi5mcVAwak55VWxheWtGY29ZV1p6azJ4LlFFLi4uLi4uLmZwaThWYXZVbGF5RUZja3NMLi4uLi4uLi4uLlRKWXhrbGNrc0xQUC4uLkQuLi4uanBhdUlXYWd3Vlo1VTF4K0JPLi4uLi4uLlBwemdsYmtNR1p1d0ZZSytLNy4uLi4uLi4ubmxsYXpVbGJ0RUZhQmhwWDRBV1h5TVdZaklicG1FVlp0OFVhdVFWWS5mNWJrUUdjbzQxWXlZSHNnTUZjb1lXWWV3Vlpza0Zja0kyV3M4Rllrd0Yub04xYXI4bGJlZ1Zja3M3T2pPdGkzTHRpNGpKWWdJMlplMDFhalUxdnpkVlhvNDFXeFVGWTBNRmNvOGxhZUlXWHRjVllLQ0RGLi4uLi4uLi5rTjJYZ3dWWUsrQzcuLi4uLi4uLnROMlh1QVdZZVFWY3hFRmNvOGxhS0NELi4uLi4uLi4ubVpXWXhNV1p1NGx5LkhQLi5ELi4uLi48L0lDb21wb25lbnQ\u002BPElFZGl0Q29udHJvbGxlcj4wLjwvSUVkaXRDb250cm9sbGVyPjwvVlNUM1BsdWdpblN0YXRlPgA=",
+            "BypassState": false,
+            "CustomName": null
+          }
+        ],
+        "AudioAppConfigurations": [],
+        "SampleRecorderOutputDeviceId": null,
+        "MasterVolume": 1,
+        "MasterMute": false,
+        "IsHiddenFromMixes": false
+      }
+    },
+    "DeviceParameterSettings": {},
+    "MainOutputDeviceSettings": {
+      "Id": "{0.0.0.00000000}.{dfe3bdfd-b585-4e21-ba66-cdc1cc142f0f}",
+      "Name": "Speakers",
+      "AudioDeviceType": "HardwareOutputDevice",
+      "WaveDeviceType": "NoWaveDevice"
+    },
+    "DuckingSettings": {
+      "KeyInputs": {},
+      "DuckingElements": [],
+      "EnabledDuckingElements": [],
+      "Sensitivity": "Medium",
+      "Amount": "Medium",
+      "Speed": "Medium"
+    },
+    "DefaultDeviceSettings": {
+      "LockDefaultInputDevice": true,
+      "LockDefaultOutputDevice": true,
+      "DefaultInputDeviceId": "{0.0.1.00000000}.{5ef1414f-9c2a-469e-8f96-bb81d98de27c}",
+      "DefaultInputDeviceName": "Chat Mix",
+      "DefaultInputDeviceAudioDeviceType": "WaveSoftwareOutputDevice",
+      "DefaultInputDeviceWaveDeviceType": "NoWaveDevice",
+      "DefaultInputDevice": {
+        "Id": "{0.0.1.00000000}.{5ef1414f-9c2a-469e-8f96-bb81d98de27c}",
+        "WaveLinkDeviceId": "",
+        "Name": "Chat Mix",
+        "DeviceType": "WaveSoftwareOutputDevice",
+        "FriendlyName": "Chat Mix (Elgato Virtual Audio)",
+        "Volume": 1,
+        "IsMuted": false,
+        "AudioDeviceInfo": null,
+        "ContainerId": "6eb7d0d6-4ed7-11f1-a9ea-34cff68a6de8"
+      },
+      "DefaultOutputDeviceId": "{0.0.0.00000000}.{29697f55-4686-490c-b0ba-586df91f68a1}",
+      "DefaultOutputDeviceName": "System",
+      "DefaultOutputDeviceAudioDeviceType": "WaveSoftwareInputDevice",
+      "DefaultOutputDeviceWaveDeviceType": "NoWaveDevice",
+      "DefaultOutputDevice": {
+        "Id": "{0.0.0.00000000}.{29697f55-4686-490c-b0ba-586df91f68a1}",
+        "WaveLinkDeviceId": "",
+        "Name": "System",
+        "DeviceType": "WaveSoftwareInputDevice",
+        "FriendlyName": "System (Elgato Virtual Audio)",
+        "Volume": 1,
+        "IsMuted": false,
+        "AudioDeviceInfo": null,
+        "ContainerId": "6eb7d0d6-4ed7-11f1-a9ea-34cff68a6de8"
+      }
+    },
+    "ChannelBoostSettings": {}
+  },
+  "WindowPlacement": {
+    "MainWindow": {
+      "ShowCmd": 3,
+      "MaxPosition": {
+        "X": -1,
+        "Y": -1
+      },
+      "NormalPosition": {
+        "Left": 105,
+        "Top": 40,
+        "Right": 1623,
+        "Bottom": 1088
+      }
+    }
+  },
+  "PluginHostConfiguration": {
+    "AudioPluginHostSettings": {
+      "VST2PluginDirectoryPath": "C:\\Program Files\\Common Files\\VST2",
+      "AutoScalePluginWindowDefault": false,
+      "AutoScalePluginWindowState": {
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|80c1cb84-056d-4c6e-b373-02bdc9049f18": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|9bccb8be-c614-4c8d-aea3-7dea82431801": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|bdd5de0f-82fd-4c96-819d-6154652e7349": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|bff4885c-48fc-40ed-acf7-3e938b5af1ff": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|0bec69fb-19c8-470c-872b-3af8ae98e600": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|489dea59-34b0-428f-90c4-1d39b74e2d14": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|abafb4dd-9584-4e67-a3c3-11a440a27255": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|490654ee-7c7c-46e0-a47c-0ea4a7cb13a2": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|d9659c84-122e-4cdf-ae8e-60b60a2db06f": "Default",
+        "{0.0.1.00000000}.{ade2fc13-9029-45f7-9bf9-ef4701165919}|49aef933-e437-42b1-8f0a-fdee938df3f4": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|489dea59-34b0-428f-90c4-1d39b74e2d14": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|abafb4dd-9584-4e67-a3c3-11a440a27255": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|490654ee-7c7c-46e0-a47c-0ea4a7cb13a2": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|d9659c84-122e-4cdf-ae8e-60b60a2db06f": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|49aef933-e437-42b1-8f0a-fdee938df3f4": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|44a539b3-9f40-4dc1-89e9-335d014e9339": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|5d17432f-fd96-409f-89f1-a6d80e50bf00": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|da55e433-2e49-4c0b-8594-8938c03c09eb": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|bd476458-6984-48a3-a5df-aafccfbaba6e": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|bda06a05-1db9-4bb3-84f6-6d12b3519d6f": "Default",
+        "{0.0.1.00000000}.{48c5ada0-3496-4a1b-bd27-e4a72e4e9c7c}|d08e7d8f-46bd-4136-9aa8-968ca7a9831f": "Default",
+        "{0.0.1.00000000}.{80b99362-d4e9-4fb0-93a4-1fbbfbaad661}|0af70123-5822-47b1-ab68-6ea2f2316c37": "Default",
+        "{0.0.1.00000000}.{80b99362-d4e9-4fb0-93a4-1fbbfbaad661}|6266870b-f7eb-49b9-9911-122bc182ff0d": "Default",
+        "{0.0.1.00000000}.{80b99362-d4e9-4fb0-93a4-1fbbfbaad661}|93b5e7a8-16ce-4dff-84c4-d001feddd2dd": "Default",
+        "{0.0.1.00000000}.{80b99362-d4e9-4fb0-93a4-1fbbfbaad661}|61a3da6b-3e56-4150-b69f-6efbc4a80cd5": "Default",
+        "{0.0.1.00000000}.{80b99362-d4e9-4fb0-93a4-1fbbfbaad661}|bf9d5b37-bb02-4f8e-b602-c3fc86797395": "Default",
+        "{0.0.1.00000000}.{80b99362-d4e9-4fb0-93a4-1fbbfbaad661}|982b09d8-b2bc-49e7-9453-5e927819901b": "Default",
+        "{0.0.1.00000000}.{14c209e5-9998-4dad-a1a1-0fc9829edea0}|efb856a4-8514-4267-a887-c4a638be54fb": "Default",
+        "{0.0.1.00000000}.{14c209e5-9998-4dad-a1a1-0fc9829edea0}|e695f94c-183d-4a35-9085-256bb9d57c8b": "Default",
+        "{0.0.1.00000000}.{14c209e5-9998-4dad-a1a1-0fc9829edea0}|9bd5709d-55fe-4113-a768-7630173b48fe": "Default",
+        "{0.0.1.00000000}.{14c209e5-9998-4dad-a1a1-0fc9829edea0}|4836088c-d796-46f3-b508-567cb10a8727": "Default",
+        "{0.0.1.00000000}.{14c209e5-9998-4dad-a1a1-0fc9829edea0}|13e9622e-10d0-467b-a992-895723b0d0fa": "Default",
+        "{0.0.1.00000000}.{3b5216ed-6fdd-4871-a754-d00237c47e59}|9eacd137-2ed5-4e79-a58a-538820a891cd": "Default",
+        "{0.0.1.00000000}.{3b5216ed-6fdd-4871-a754-d00237c47e59}|a5c997c6-8847-40a8-956c-4388bf0b45d2": "Default"
+      }
+    }
+  }
+}
