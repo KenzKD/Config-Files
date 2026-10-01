@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="Default" Platform="Windows" Runtime="VM" Device="Default">
+	<Desktop x="0" y="-1057" width="1920" height="1057" id="19" title="BingoPrototype - GameMaker-LTS2026" windowState="Maximized" dpi="96">
+		<Workspaces>
+			<Workspace active="False" chain="False" title="GameEnums Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;GameEnums&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="GameEnums">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\scripts\GameEnums\GameEnums.gml" cursorLine="80" cursorColumn="18" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="GameArrays Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;GameArrays&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="GameArrays">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="544.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\scripts\GameArrays\GameArrays.gml" cursorLine="119" cursorColumn="2" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="GameMacros Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;GameMacros&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="GameMacros">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\scripts\GameMacros\GameMacros.gml" cursorLine="5" cursorColumn="22" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="RecipeStruct Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;RecipeStruct&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="RecipeStruct">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\scripts\RecipeStruct\RecipeStruct.gml" cursorLine="15" cursorColumn="1" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Obj_GoTo_TrophyMenu Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;Obj_GoTo_TrophyMenu&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="Obj_GoTo_TrophyMenu">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_GoTo_TrophyMenu\Create_0.gml" cursorLine="15" cursorColumn="12" isFocused="True" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_GoTo_TrophyMenu\KeyPress_83.gml" cursorLine="0" cursorColumn="0" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_GoTo_TrophyMenu\Gesture_0.gml" cursorLine="1" cursorColumn="0" isFocused="False" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Obj_Card Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;Obj_Card&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="Obj_Card">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Card\Create_0.gml" cursorLine="516" cursorColumn="1" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Card\Alarm_0.gml" cursorLine="0" cursorColumn="0" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Card\Draw_0.gml" cursorLine="25" cursorColumn="3" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="PlayerStructs Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;PlayerStructs&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="PlayerStructs">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="11200.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\scripts\PlayerStructs\PlayerStructs.gml" cursorLine="716" cursorColumn="22" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="Obj_Recipe_MenuItems Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;Obj_Recipe_MenuItems&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="Obj_Recipe_MenuItems">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Recipe_MenuItems\Create_0.gml" cursorLine="88" cursorColumn="11" isFocused="True" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Recipe_MenuItems\Draw_0.gml" cursorLine="0" cursorColumn="0" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Recipe_MenuItems\Gesture_0.gml" cursorLine="0" cursorColumn="0" isFocused="False" />
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\objects\Obj_Recipe_MenuItems\Gesture_1.gml" cursorLine="0" cursorColumn="0" isFocused="False" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="NumberStructs Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;NumberStructs&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="NumberStructs">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="4344.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\scripts\NumberStructs\NumberStructs.gml" cursorLine="281" cursorColumn="8" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Expanded" type="eRight" restore_size="499.99997dpi_px" active_tab="0">
+			<DockTab title="Inspector" cell_sizes="[698,301]" layout_id="dock_tab_2" layout_guid="74a48e01-5db9-4728-90ee-552e4abd97df">
+				<Module Command="open_inspector">
+					<Inspector resName="TODO List">
+						<Window left="366dpi_px" right="" top="157dpi_px" bottom="" width="340dpi_px" height="600dpi_px" flags="Default" title="Inspector: TODO List" localise_title="Inspector_WindowTitleArg" />
+					</Inspector>
+				</Module>
+				<Module Command="open_search_replace">
+					<SearchReplace left="1436.2dpi_px" right="" top="61dpi_px" bottom="" width="420dpi_px" height="286dpi_px" flags="CloseButton, ResizeLeft, ResizeRight" title="Search &amp; Replace" localise_title="SearchReplace_Title" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="AssetBrowser_Title" cell_sizes="[1000]" layout_id="dock_tab_3" layout_guid="1bfaace4-5c94-4c49-9543-7e414162006e">
+				<Module Command="open_asset_browser">
+					<AssetBrowser sort="AtoZ" foldersFirst="True" zoom="100">
+						<Window left="1567px" right="" top="83px" bottom="" width="370dpi_px" height="463dpi_px" flags="Default" title="Asset Browser" localise_title="AssetBrowser_Title" />
+					</AssetBrowser>
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Expanded" type="eBottom" restore_size="300.99997dpi_px" active_tab="1">
+			<DockTab localise_title="OutputPanel_Output" cell_sizes="[500,500]" layout_id="dock_tab_1" layout_guid="a2237b41-0a5d-452f-8c22-c65d30710eb1">
+				<Module Command="open_output_panel">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Output" localise_title="OutputPanel_Title" />
+				</Module>
+				<Module Command="open_search_output_panel">
+					<Window left="" right="" top="" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Search Results" localise_title="OutputPanel_SearchResults" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Breakpoints" cell_sizes="[261,738]" layout_id="dock_tab_4" layout_guid="2d206499-5ac1-4566-9e0e-41636471c37c">
+				<Module Command="open_breakpoint_mgr">
+					<Window left="0dpi_px" right="" top="0dpi_px" bottom="" width="900dpi_px" height="240dpi_px" flags="Default" title="Breakpoints" localise_title="Breakpoints" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Diagnostics_Title" cell_sizes="[1000]" layout_id="dock_tab_5" layout_guid="2151996c-8ae2-4ea7-9bf8-8a56c302be50">
+				<Module Command="diagnostics_initialized">
+					<Window left="" right="" top="" bottom="" width="800dpi_px" height="600dpi_px" flags="Default" title="Diagnostics" localise_title="Diagnostics_Title" />
+				</Module>
+			</DockTab>
+		</Dock>
+	</Desktop>
+	<Desktop x="1186" y="38" width="916" height="1301" id="18" title="BingoPrototype" windowState="Normal" dpi="120">
+		<Workspaces>
+			<Workspace active="True" chain="False" title="TODO List Code" localise_title="DocumentWindow2_Title" localise_arguments="[&#xD;&#xA;    &quot;TODO List&quot;&#xD;&#xA;]" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="DocumentWindow2_RestoreLayout">
+					<DocumentWorkspace resource="TODO List">
+						<Grid stylename="fullscreen_editor_window2" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FFFFFFFF" bind_property="" help_tag="" grid_rowlayout="['1*']" grid_columnlayout="['100%', '1*']" row_spacing="" column_spacing="" grid_resize="None">
+							<ColumnSplitter stylename="vertical_grid_splitter" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="1135px" width="5dpi_px" left="909px" right="" top="0px" bottom="" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FF3E3E3E" bind_property="" help_tag="" splitter_flags="ResizeBoth" row="0" column="1" rowspan="1" columnspan="1" />
+							<Cell row="0" column="0" stylename="fullscreen_editor_window2_panel" flow_index="0" />
+							<Cell row="0" column="1" stylename="fullscreen_editor_window2_panel" flow_index="0">
+								<ChildGadgets>
+									<ScrollPanel stylename="scroll_panel" layout_id="markdown_scrollpanel" layout_guid="d704a115-75a7-4b60-b14f-698889811b59" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="100%" width="100%" left="" right="" top="" bottom="" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#FF222222" bind_property="" help_tag="" scrollpanel_flags="VerticalScroll">
+										<ChildGadgets>
+											<MarkdownPanel stylename="markdown_panel" layout_id="MarkdownPreview" layout_guid="798ab606-8150-44b8-83df-97198817d17b" flow_index="0" override_flow_index="2147483647" override_flow_control="False" tooltip="" localise_tooltip="" height="" width="" left="26dpi_px" right="52dpi_px" top="14dpi_px" bottom="" margin_left="" margin_right="" margin_top="" margin_bottom="" colour="#00000000" bind_property="" help_tag="" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+										</ChildGadgets>
+									</ScrollPanel>
+								</ChildGadgets>
+							</Cell>
+						</Grid>
+						<DocumentWindow x="0" y="0" vscroll="0.00" hscroll="0.00">
+							<Editor resource="C:\Users\Lenovo\Desktop\Game_Making\GameMakerStudio_Stuff\BingoPrototype\notes\TODO List\TODO List.txt" cursorLine="25" cursorColumn="21" isFocused="True" />
+						</DocumentWindow>
+					</DocumentWorkspace>
+				</Module>
+			</Workspace>
+		</Workspaces>
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.RoomEditor.RoomEditorModule>
+			<RoomEditor>
+				<Layers left="" right="" top="" bottom="" width="377dpi_px" height="310dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" title="Layers - Room_ExpMenu" localise_title="RoomEditor_Layers" dock_type="eBottom" dock_tab_index="5" dock_list_index="0" dock_proportion="1" dock_tab_name="Source Control" dock_tab_localise_name="OutputPanel_SourceControl" dock_tab_id="dock_tab_8" dock_tab_guid="1551599e-6866-4d05-897c-902505802e79" />
+				<UIPreview enabled="False" preset="Room" clip="True" x="0" y="0" />
+			</RoomEditor>
+		</YoYoStudio.Plugins.RoomEditor.RoomEditorModule>
+	</Modules>
+</Project>
